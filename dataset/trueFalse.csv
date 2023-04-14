@@ -1,0 +1,31 @@
+Question,Answer
+Threads within the same process can share data with one another by passing pointers to objects on their stacks.,TRUE
+A user-level process cannot modify its own page table entries.,TRUE
+"Immediately after a process has been forked, the same variable in both the parent and the child will have the same virtual memory address but different physical memory addresses.",FALSE
+Hyper-threading refers to the situation in which a modern operating system allows thousands of threads to access the same address space.,FALSE
+The scheduler is the part of an Operating System that determines the priority of each process.,FALSE
+"The best way to correct virtual memory thrashing is to increase the overlap between I/O and computation, namely by increasing the number of runnable threads.",FALSE
+Most PC operating systems do not support multi-programming.,FALSE
+Threads in a process share same file descriptors.,TRUE
+"In a modern operating system using memory protection through virtual memory, the hardware registers of a memory-mapped I/O device can only be accessed by the kernel.",FALSE
+A Remote Procedure Call (RPC) can be used to call a procedure in another process on the same machine.,TRUE
+The complexity of handling software TLB faults increases when exceptions are imprecise,TRUE
+DMA is a mechanism for allowing an I/O device to transfer data to and from memory without involving the CPU in the transfer.,TRUE
+Memory mapped I/O determines how the pages of an I/O-bound process are mapped to page frames.,FALSE
+"There is only one MBR (master boot record) on a disk drive, but there could be several boot sectors.",FALSE
+A context switch from one process to another can be accomplished without executing OS code in kernel mode.,FALSE
+Multiple processes can correspond to the same program / executable file at the same time.,TRUE
+The same process can correspond to multiple programs / executable files (not necessarily at the same time).,FALSE
+Memory Mapped I/O devices are accessed with special instructions not used for normal computation.,FALSE
+RAID-5 is 5 times more reliable than RAID-1.,FALSE
+One advantage of a software TLB is that the same hardware platform can support both forward and inverse page tables.,TRUE
+Compulsory misses in a cache can be reduced with prefetching.,TRUE
+Non-volatile Ram (NVRAM) can improve the durability of a file system that uses delayed writes.,TRUE
+A process in user mode cannot execute certain privileged hardware instructions.,TRUE
+"A context switch can occur only after processing a timer interrupt, but not after any other system call or interrupt.",FALSE
+Context-switching between threads of the same process requires flushing the TLB or tracking an ASID in the TLB.,FALSE
+n advantage of implementing threads in user space is that they don't incur the overhead of having the OS schedule their execution.,TRUE
+Deadlock can never occur if no process is allowed to hold a resource while requesting another resource.,TRUE
+Two processes reading from the same virtual address will access the same contents,FALSE
+"With dynamic relocation, hardware dynamically translates an address on every memory access.",TRUE
+"A system that provides segmentation without paging can fragment the physical address space, forcing the operating system to waste physical memory.",TRUE

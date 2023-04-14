@@ -1,0 +1,20 @@
+The state transition initiated by the user process itself in an operating system is,Block
+An operating system contains 3 user processes each requiring 2 units of resource R. The minimum number of units of R such that no deadlocks will ever arise is,Four
+Which of the operating system write through catches?,DOS
+Most popular 16-bit operating system is,MS-DOS
+To access the services of operating system the interface is provided by the,System calls
+Which Module give control of the CPU to the process selected by the short-term scheduler,Dispatcher
+What else is a command interpreter called?,Shell
+Which services is not supported by the operating system?,Compilation
+In which year the first Operating System was developed?,1950
+Real Time Operating System is an example of a ,Process Control
+What is the systematic process of moving the CPU to a new process called?,Context Switching
+BIOS (Basic Input Output System) is used by,Operating System
+"If a process fails, most operating system write the error information to a",Log file
+What does OS X has?,hybrid kernel
+"The operating system maintains a ______ table that keeps track of how many frames have been allocated, how many are there, and how many are available.",frame
+"he _________ presents a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system.",Device drivers
+Hard real time operating system has ______________ jitter than a soft real time operating system.,Less
+"For real time operating systems, interrupt latency should be ____________",Minimal
+"The _______ program initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system.",bootstrap
+Network operating system runs on,Server
