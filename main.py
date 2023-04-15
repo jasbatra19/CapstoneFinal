@@ -37,6 +37,7 @@ def record_answer():
     r=sr.Recognizer()
     with sr.Microphone() as source:
         r.pause_threshold=1
+        
         audio=r.listen(source)
 
     try:

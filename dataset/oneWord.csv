@@ -1,3 +1,4 @@
+Question,Answer
 The state transition initiated by the user process itself in an operating system is,Block
 An operating system contains 3 user processes each requiring 2 units of resource R. The minimum number of units of R such that no deadlocks will ever arise is,Four
 Which of the operating system write through catches?,DOS
