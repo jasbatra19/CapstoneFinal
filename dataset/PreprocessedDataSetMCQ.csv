@@ -1,0 +1,225 @@
+question,A,B,C,D,answer,explanation
+ Java Source Code is compiled into ,.Obj,SourceCode,Bytecode,.Exe,C,JavaSourceCodeiscompiledintoBytecode.
+ Enums were introduced in?,Java4.0,Java8.0,Java5.0,Java6.0,C,EnumswereintroducedinJava5.0.Enumsrestrictavariabletohaveoneofonlyafewpredefinedvalues.Thevaluesinthisenumeratedlistarecalledenums.
+" Default, public , protected, private are?",AccessModifier,Non-accessModifiers,BothAandB,It'svariable,A,"AccessModifiers:default,public,protected,private"
+ Which of the following is used to interpret and execute Java Applet Classes hosted by HTML,appletviewer,appletwatcher,appletshow,appletscreen,A,appletviewerisusedtointerpretandexecuteJavaAppletClasseshostedbyHTML.
+ HTML based Java Documentary help can be accessed using ,javahelp,javamanual,javadoc,Noneofthese,C,HTMLbasedJavaDocumentaryhelpcanbeaccessedusingjavadoc.
+ jar stands for ,JavaApplicationRunner,JavaArchive,JavaArchiveRunner,Noneofthese,B,jarstandsforJavaArchive
+ Which of the following is not a keyword in Java,transient,instanceof,emun,strictfp,C,"Incorrectspellingoftheword""enum"",enumisakeywordinJava."
+ Which of the following is not a keyword in Java,assert,boolean,abstract,finalize,D,"Finalclasscan'tbeinherited,finalmethodcan'tbeoverriddenandfinalvariablevaluecan'tbechanged.Finallyisusedtoplaceimportantcode,itwillbeexecutedwhetherexceptionishandledornot.Finalizeisusedtoperformcleanupprocessingjustbeforeobjectisgarbagecollected."
+ Single line comment starts with  in Java,/**,//,/*,Noneofthese,B,Single-linecommentsstartwithtwoforwardslashes(//).Anytextbetween//andtheendofthelineisignoredbyJava
+ What is JRE?,JREisajavabasedGUIapplication.,JREisanimplementationoftheJavaVirtualMachinewhichexecutesJavaprograms.,JREisanapplicationdevelopmentframework.,Noneoftheabove,B,JavaRuntimeEnvironmentisanimplementationoftheJavaVirtualMachinewhichexecutesJavaprograms.ItprovidestheminimumrequirementsforexecutingaJavaapplication.
+ How to compile java code in command prompt?,javacfilename.java,javafilename.java,javacfilename,javafilename,A,"Typejavacfilename.javaandpressentertocompileyourcode.Iftherearenoerrorsinyourcode,thecommandpromptwilltakeyoutothenextline."
+ How to run java program in command prompt?,javacfilename.java,javafilename.java,javacfilename,javafilename,D,"Now,typejavafilenametorunyourprogram."
+ Java is case sensitive?,True,False,DependsOnComplier,Maybetrueorfalse,A,"CaseSensitivity:Javaiscasesensitive,whichmeansidentifierHelloandhellowouldhavedifferentmeaninginJava."
+ What is true in Java?,ForallclassnamesthefirstlettershouldbeinUpperCase.,AllmethodnamesshouldstartwithaLowerCaseletter.,Nameoftheprogramfileshouldexactlymatchtheclassname.,Alloftheabove,D,Alloftheabovestatementaretrue.
+ All Java components require names,Variables,identifiers,AccessModifiers,JavaModifiers,B,"AllJavacomponentsrequirenames.Namesusedforclasses,variables,andmethodsarecalledidentifiers."
+ A   provides us with named storage that our programs can manipulate,datatype,constants,operators,variable,D,Avariableprovidesuswithnamedstoragethatourprogramscanmanipulate.
+" Each variable in Java has a specific type, which determines the size and layout of the variable's memory",TRUE,FALSE,Canbetrueorfalse,Cannotsay,A,"True,EachvariableinJavahasaspecifictype,whichdeterminesthesizeandlayoutofthevariable'smemory."
+" To declare more than one variable of the specified type, we can use a  list",colon-separated,bracket-separated,comma-separated,Noneoftheabove,C,"Todeclaremorethanonevariableofthespecifiedtype,youcanuseacomma-separatedlist."
+ How many kinds of variables in Java?,2,3,4,5,B,"TherearethreekindsofvariablesinJava:Localvariables,InstancevariablesandClass/Staticvariables"
+ Local variables are declared in?,methods,constructors,blocks,Alloftheabove,D,"Localvariablesaredeclaredinmethods,constructors,orblocks."
+ What is true about Instance Variables in java?,Instancevariablesaredeclaredinaclass,"Whenaspaceisallocatedforanobjectintheheap,aslotforeachinstancevariablevalueiscreated.",Instancevariablescanbedeclaredinclasslevelbeforeorafteruse,Alloftheabove,D,AlloftheabovearetrueaboutInstanceVariablesinjava
+ Which variables have no default values?,StaticVariables,InstanceVariables,LocalVariable,BothAandB,C,"Thereisnodefaultvalueforlocalvariables,solocalvariablesshouldbedeclaredandaninitialvalueshouldbeassignedbeforethefirstuse."
+ Static variables can be accessed by calling with the?,Objectname,Classname,Functionname,Cannotsay,B,StaticvariablescanbeaccessedbycallingwiththeclassnameClassName.VariableName.
+ Which of the following is an Example of variable initialization?,"inta,b,c;","inta=10,b=10;",int10=a;,Noneoftheabove,B,"inta=10,b=10;isanExampleofinitialization"
+ Access modifiers cannot be used for local variables,Yes,No,Canbeyesorno,Cannotsay,A,"Yes,Accessmodifierscannotbeusedforlocalvariables."
+ A program P reads in 500 integers in the range [0,Anarrayof50numbers,Anarrayof100numbers,Anarrayof500numbers,Adynamicallyallocatedarrayof550numbers,A,"Anarrayofsize50looksthebestoptiontostorenumberofstudentsforeachscore.Weneedtostorefrequenciesofscoresabove50.Wecanignorescoresbelow50andtoindexthescoresabove50,wecansubtract50fromthescorevalue."
+ Which of these best describes an array?,Adatastructurethatshowsahierarchicalbehavior,Containerofobjectsofsimilartypes,Containerofobjectsofmixedtypes,Allofthementioned,B,Arraycontainselementsonlyofthesametype.
+ Let A be a square matrix of size n x n,ThematrixAitself,TransposeofmatrixA,Adding100totheupperdiagonalelements&subtracting100fromdiagonalelementsofA,Noneoftheabove,A,"Ifwetakelookattheinnerstatementsoffirstloops,wecannoticethatthestatementsswapA[i][j]andA[j][i]foralliandj.Sincethelooprunsforallelements,everyelementA[l][m]wouldbeswappedtwice,oncefori=landj=mandthenfori=mandj=l.Swappingtwicemeansthematrixdoesnâ€™tchange."
+"What is the output of the following piece of code?
+      
+    public class array
+    {
+    public static void main(String args[])
+    {
+    int []arr = {1,2,3,4,5};
+    System",3and5,5and3,2and4,4and2,A,Arrayindexingstartsfrom0.
+" Consider an array A[20, 10], assume 4 words per memory cell and the base address of array A is 100",560,565,570,575,A,NoExplanation.
+" What is the output of the following piece of code?
+      
+    public class array
+    {
+    public static void main(String args[])
+    {
+    int []arr = {1,2,3,4,5};
+    System",4,5,ArrayIndexOutOfBoundsException,InavlidInputException,C,TryingtoaccessanelementbeyondthelimitsofanarraygivesArrayIndexOutOfBoundsException.
+ Which of the following concepts make extensive use of arrays?,Binarytrees,Schedulingofprocesses,Caching,Spatiallocality,D,"Wheneveraparticularmemorylocationisreferred,itislikelythatthelocationsnearbyarealsoreferred,arraysarestoredascontigousblocksinmemory,soifyouwanttoaccessarrayelements,spatiallocalitymakesittoaccessquickly."
+Let A[1,Î¸(n),Î¸(lgn),Î¸(nlgn),Î¸(n2),D,TheexpectednumberofinversionsinanypermutationonnelementsisÎ¸(n2).
+ Which of the following operations is not O(1) for an array of sorted data,Findtheithlargestelement,Deleteanelement,Findtheithsmallestelement,Alloftheabove,B,TheworstcasetimecomplexityfordeletinganelementfromarraycanbecomeO(n).
+The smallest element of an array's index is called its,lowerbound.,upperbound.,range.,extraction.,A,None
+" The extra key inserted at the end of the array is called a,",Endkey.,Stopkey.,Sentinel.,Transposition.,C,None
+  The largest element of an array index is called its,lowerbound.,range.,upperbound.,Allofthese.,C,None
+" Each array declaration need not give, implicitly or explicitly, the information about",thenameofarray,thedatatypeofarray,thefirstdatafromthesettobestored,theindexsetofthearray,C,None
+ The elements of an array are stored successively in memory cells because,bythiswaycomputercankeeptrackonlytheaddressofthefirstelementandtheaddressesofotherelementscanbecalculated,thearchitectureofcomputermemorydoesnotallowarraystostoreotherthanserially,bothofabove,noneofabove,A,NoExplanation.
+"  is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output",Code,Algorithm,Program,Alloftheabove,B,"Algorithmisastep-by-stepprocedure,whichdefinesasetofinstructionstobeexecutedinacertainordertogetthedesiredoutput."
+ Which of the following are characteristics of an algorithm?,Algorithmshouldbeclear,Algorithmshouldbeunambiguous,Algorithmsmustterminateafterafinitenumberofsteps,Alloftheabove,D,AlloftheaboveareCharacteristicsofanAlgorithm
+ Not all procedures can be called an algorithm,TRUE,FALSE,Canbetrueorfalse,Cannotsay,A,"True,Notallprocedurescanbecalledanalgorithm."
+ An algorithm should have  well-defined inputs,0,1,0ormore,1ormore,C,Analgorithmshouldhave0ormorewell-definedinputs.
+ An algorithm should have  well-defined outputs,0,1,0ormore,1ormore,D,"Analgorithmshouldhave1ormorewell-definedoutputs,andshouldmatchthedesiredoutput."
+ Which of the following is a theoretical analysis of an algorithm?,PosteriorAnalysis,PrioriAnalysis,SimpleAnalysis,PreoriAnalysis,B,"APrioriAnalysis:Thisisatheoreticalanalysisofanalgorithm.Efficiencyofanalgorithmismeasuredbyassumingthatallotherfactors,forexample,processorspeed,areconstantandhavenoeffectontheimplementation."
+  is measured by counting the number of key operations such as comparisons in the sorting algorithm,Space,Lines,Time,Noneoftheabove,C,Timeismeasuredbycountingthenumberofkeyoperationssuchascomparisonsinthesortingalgorithm.
+ The complexity of an algorithm f(n) gives the running time and/or the storage space required by the algorithm in terms of n as the size of input data,Yes,No,Canbeyesorno,Cannotsay,A,"Yes,Thecomplexityofanalgorithmf(n)givestherunningtimeand/orthestoragespacerequiredbythealgorithmintermsofnasthesizeofinputdata."
+ The space required by an algorithm is equal to the sum of  components,1,2,3,4,B,Thespacerequiredbyanalgorithmisequaltothesumofthefollowingtwocomponents:fixedpartandvariablepart.
+" Space complexity S(P) of any algorithm P is S(P) = C + SP(I), where C is the?",fixedpart,variablepart,spacecomplexity,Noneoftheabove,A,"SpacecomplexityS(P)ofanyalgorithmPisS(P)=C+SP(I),whereCisthefixedpartandS(I)isthevariablepartofthealgorithm,whichdependsoninstancecharacteristicI."
+ Which of the following statements for a simple graph is correct?,Everypathisatrail,Everytrailisapath,Everytrailisapathaswellaseverypathisatrail,Noneofthementioned,A,"Inawalkiftheverticesaredistinctitiscalledapath,whereasiftheedgesaredistinctitiscalledatrail."
+ What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?,(n*(n-1))/2,(n*(n+1))/2,n*(n-1),n*(n+1),C,Outofn*npossiblevaluesforasimplegraphthediagonalvalueswillalwaysbezero.
+ Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?,"Inadjacencylistrepresentation,spaceissavedforsparsegraphs.",DFSandBSFcanbedoneinO(V+E)timeforadjacencylistrepresentation.TheseoperationstakeO(V^2)timeinadjacencymatrixrepresentation.HereisVandEarenumberofverticesandedgesrespectively.,Addingavertexinadjacencylistrepresentationiseasierthanadjacencymatrixrepresentation.,Alloftheabove,D,Noexplanation.
+"A connected planar graph having 6 vertices, 7 edges contains  regions",15,3,1,11,B,"Byeulerâ€™sformulatherelationbetweenvertices(n),edges(q)andregions(r)isgivenbyn-q+r=2."
+"On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?",Dependsonthenumberofedges,Dependsonthenumberofvertices,Isindependentofboththenumberofedgesandvertices,Itdependsonboththenumberofedgesandvertices,C,"Tocheckifthereisanedgebetweentoverticesiandj,itisenoughtoseeifthevalueofA[i][j]is1or0,hereAistheadjacencymatrix."
+ What is the maximum number of edges in a bipartite graph having 10 vertices?,24,21,25,16,C,Letonesethavenverticesanothersetwouldcontain10-nvertice
+" Possible number of labelled simple Directed, Pseudo and Multigarphs exist having 2 vertices?","3,Infinite,4","4,3,Infinite","4,Infinite,infinite","4,Infinite,Infinite",D,"MultiGraphsandPseudoGraphsmayhaveinfinitenumberofedges,while4possiblesimplegraphsexist."
+The most efficient algorithm for finding the number of connected components in an undirected graph on n vertices and m edges has time complexity,A,B,C,D,C,"ConnectedcomponentscanbefoundinO(m+n)usingTarjan'salgorithm.Oncewehaveconnectedcomponents,wecancountthem."
+" What is time complexity to check if a string(length S1) is a substring of another string(length S2) stored in a Directed Acyclic Word Graph, given S2 is greater than S1?",O(S1),O(S2),O(S1+S2),O(1),A,"ForeachcheckofawordoflengthS1,weneedtofollowatmostS1edges."
+ What is the number of edges present in a complete graph having n vertices?,(n*(n+1))/2,(n*(n-1))/2,n,Informationgivenisinsufficient,B,NumberofwaysinwhicheveryvertexcanbeconnectedtoeachotherisnC2.
+"   If a simple graph G, contains n vertices and m edges, the number of edges in the Graph G'(Complement of G) is",(n*n-n-2*m)/2,(n*n+n+2*m)/2,(n*n-n-2*m)/2,(n*n-n+2*m)/2,A,"TheunionofGandGâ€™wouldbeacompletegraphso,thenumberofedgesinGâ€™=numberofedgesinthecompleteformofG(nC2)-edgesinG(m)."
+  Which of the following properties does a simple graph not hold?,Mustbeconnected,Mustbeunweighted,Musthavenoloopsormultipleedges,Allofthementioned,A,Asimplegraphmaybeconnectedordisconnected.
+ Which of the following is true?,Agraphmaycontainnoedgesandmanyvertices,Agraphmaycontainmanyedgesandnovertices,Agraphmaycontainnoedgesandnovertices,Noneofthementioned,B,Agraphmustcontainatleastonevertex.
+"  For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?",v=e,v=e+1,v+1=e,Noneofthementioned,B,Foranyconnectedgraphwithnocyclestheequationholdstrue.
+  A graph with all vertices having equal degree is known as a,MultiGraph,RegularGraph,SimpleGraph,CompleteGraph,B,Thegivenstatementisthedefinitionofregulargraphs.
+ Which of the following ways can be used to represent a graph?,AdjacencyListandAdjacencyMatrix,IncidenceMatrix,"AdjacencyList,AdjacencyMatrixaswellasIncidenceMatrix",Noneofthementioned,C,"The3listedmethodscanbeused,thechoicedependsontheeaseofuse."
+ The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is,O(V),O(E2),O(E),O(V2),D,"AsVentriesare0,atotalofV2-Ventriesaretobeexamined."
+ Which of the following statements for a simple graph is correct?,Everypathisatrail,Everytrailisapath,Everytrailisapathaswellaseverypathisatrail,Noneofthementioned,A,"Inawalkiftheverticesaredistinctitiscalledapath,whereasiftheedgesaredistinctitiscalledatrail."
+ What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?,(n*(n-1))/2,(n*(n+1))/2,n*(n-1),n*(n+1),C,Outofn*npossiblevaluesforasimplegraphthediagonalvalueswillalwaysbezero.
+ Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?,"Inadjacencylistrepresentation,spaceissavedforsparsegraphs.",DFSandBSFcanbedoneinO(V+E)timeforadjacencylistrepresentation.TheseoperationstakeO(V^2)timeinadjacencymatrixrepresentation.HereisVandEarenumberofverticesandedgesrespectively.,Addingavertexinadjacencylistrepresentationiseasierthanadjacencymatrixrepresentation.,Alloftheabove,D,Noexplanation.
+"A connected planar graph having 6 vertices, 7 edges contains  regions",15,3,1,11,B,"Byeulerâ€™sformulatherelationbetweenvertices(n),edges(q)andregions(r)isgivenbyn-q+r=2."
+"On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?",Dependsonthenumberofedges,Dependsonthenumberofvertices,Isindependentofboththenumberofedgesandvertices,Itdependsonboththenumberofedgesandvertices,C,"Tocheckifthereisanedgebetweentoverticesiandj,itisenoughtoseeifthevalueofA[i][j]is1or0,hereAistheadjacencymatrix."
+ What is the maximum number of edges in a bipartite graph having 10 vertices?,24,21,25,16,C,Letonesethavenverticesanothersetwouldcontain10-nvertice
+" Possible number of labelled simple Directed, Pseudo and Multigarphs exist having 2 vertices?","3,Infinite,4","4,3,Infinite","4,Infinite,infinite","4,Infinite,Infinite",D,"MultiGraphsandPseudoGraphsmayhaveinfinitenumberofedges,while4possiblesimplegraphsexist."
+The most efficient algorithm for finding the number of connected components in an undirected graph on n vertices and m edges has time complexity,A,B,C,D,C,"ConnectedcomponentscanbefoundinO(m+n)usingTarjan'salgorithm.Oncewehaveconnectedcomponents,wecancountthem."
+" What is time complexity to check if a string(length S1) is a substring of another string(length S2) stored in a Directed Acyclic Word Graph, given S2 is greater than S1?",O(S1),O(S2),O(S1+S2),O(1),A,"ForeachcheckofawordoflengthS1,weneedtofollowatmostS1edges."
+ What is the number of edges present in a complete graph having n vertices?,(n*(n+1))/2,(n*(n-1))/2,n,Informationgivenisinsufficient,B,NumberofwaysinwhicheveryvertexcanbeconnectedtoeachotherisnC2.
+"   If a simple graph G, contains n vertices and m edges, the number of edges in the Graph G'(Complement of G) is",(n*n-n-2*m)/2,(n*n+n+2*m)/2,(n*n-n-2*m)/2,(n*n-n+2*m)/2,A,"TheunionofGandGâ€™wouldbeacompletegraphso,thenumberofedgesinGâ€™=numberofedgesinthecompleteformofG(nC2)-edgesinG(m)."
+  Which of the following properties does a simple graph not hold?,Mustbeconnected,Mustbeunweighted,Musthavenoloopsormultipleedges,Allofthementioned,A,Asimplegraphmaybeconnectedordisconnected.
+ Which of the following is true?,Agraphmaycontainnoedgesandmanyvertices,Agraphmaycontainmanyedgesandnovertices,Agraphmaycontainnoedgesandnovertices,Noneofthementioned,B,Agraphmustcontainatleastonevertex.
+"  For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?",v=e,v=e+1,v+1=e,Noneofthementioned,B,Foranyconnectedgraphwithnocyclestheequationholdstrue.
+  A graph with all vertices having equal degree is known as a,MultiGraph,RegularGraph,SimpleGraph,CompleteGraph,B,Thegivenstatementisthedefinitionofregulargraphs.
+ Which of the following ways can be used to represent a graph?,AdjacencyListandAdjacencyMatrix,IncidenceMatrix,"AdjacencyList,AdjacencyMatrixaswellasIncidenceMatrix",Noneofthementioned,C,"The3listedmethodscanbeused,thechoicedependsontheeaseofuse."
+ The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is,O(V),O(E2),O(E),O(V2),D,"AsVentriesare0,atotalofV2-Ventriesaretobeexamined."
+ What is a hash table?,Astructurethatmapsvaluestokeys,Astructurethatmapskeystovalues,Astructureusedforstorage,Astructureusedtoimplementstackandqueue,B,"Ahashtableisusedtoimplementassociativearrayswhichhasakey-valuepair,sothehastablemapskeystovalues."
+ How many different insertion sequences of the key values using the same hash function and linear probing will result in the hash table shown above?,10,20,30,40,C,"Inavalidinsertionsequence,theelements42,23and34mustappearbefore52and33,and46mustappearbefore3"
+ If ' h ' is a hashing function and it is used to hash ' n ' keys into a table of size ' m '  where n <= m ,lessthan1.,lessthann.,lessthanm.,lessthann/2.,A,NoExplanation
+Hashing technique which allocates fixed number of buckets is classified as,dynamichashing,statichashing,externalhashing,internalhashing,C,Hashingtechniquewhichallocatesfixednumberofbucketsisclassifiedasexternalhashing.
+"If several elements are competing for the same bucket in the hash table, what is it called?",Diffusion,Replication,Collision,Noneofthementioned,C,"Ifseveralelementsarecompetingforthesamebucketinthehashtable,isitcalledCollision."
+" Consider a hash table of size seven, with starting index zero, and a hash function (3x + 4)mod7","8,_,_,_,_,_,10","1,8,10,_,_,_,3","1,_,_,_,_,_,3","1,10,8,_,_,_,3",B,"hashingandprobing.Letusputvalues1,3,8,10inthehashofsize7.Initially,hashtableisemp"
+ What is the advantage of using a dynamic set in direct addressing?,Itsavestime,Itsavesspace,Itsavesbothtimeandspace,Noneofthementioned,B,"Usingadynamicset,thesizeofthearrayisrestrictedtothenumberofkeys,hencesavesspace."
+"  In linear hashing, formula used to calculate number of records if blocking factor, loading factor and file buckets are known is as",r=l+bfr+N,r=l-bfr-N,r=l+bfr-N,r=l*bfr*N,D,NoExplanation
+  What is the load factor?,Averagearraysize,Averagekeysize,Averagechainlength,Noneofthementioned,C,"Insimplechaining,loadfactoristheaveragenumberofelementsstoredinachain,andisgivenbytheratioofnumberofelementsstoredtothenumberofslotsinthearra"
+" Given a hash table T with 25 slots that stores 2000 elements, the load factor Î± for T is",80,0.0125,8000,1.25,A,loadfactor=(no.ofelements)/(no.oftableslots)=2000/25=80.
+ What is direct addressing?,Distinctarraypositionforeverypossiblekey,Fewerarraypositionsthankeys,Fewerkeysthanarraypositions,Noneofthementioned,A,Directaddressingispossibleonlywhenwecanaffordtoallocateanarraythathasonepositionforeverypossiblekey.
+  What is the search complexity in direct addressing?,O(n),O(logn),O(nlogn),O(1),D,"Sinceeverykeyhasauniquearrayposition,searchingtakesaconstanttime."
+ What is a hash function?,Afunctionhasallocatedmemorytokeys,Afunctionthatcomputesthelocationofthekeyinthearray,Afunctionthatcreatesanarray,Noneofthementioned,B,"Inahashtable,therearefewerarraypositionsthanthekeys,sothepositionofthekeyinthearrayhastobecomputed,thisisdoneusingthehashfunction."
+ What can be the techniques to avoid collision?,Makethehashfunctionappearrandom,Usethechainingmethod,Useuniformhashing,Allofthementioned,D,"Makingthehashfunctionrandomisnotreallyagoodchoice,althoughitisconsideredoneofthetechniquestoavoidcollisionsalongwithchainingandsimpleuniformhashing."
+  What is simple uniform hashing?,Everyelementhasequalprobabilityofhashingintoanyoftheslots,Aweightedprobabilisticmethodisusedtohashelementsintotheslots,Allofthementioned,Noneofthementioned,A,"Insimpleuniformhashing,anygivenelementisequallylikelytohashintoanyoftheslotsavailableinthearray."
+" In simple uniform hashing, what is the search complexity?",O(n),O(logn),O(nlogn),O(1),D,"Therearetwocases,oncewhenthesearchissuccessfulandwhenitisunsuccessful,butinboththecases,thecomplexityisO(1+alpha)where1istocomputethehashfunctionandalphaistheloadfactor."
+"  In simple chaining, what data structure is appropriate?",Singlylinkedlist,Doublylinkedlist,Circularlinkedlist,Binarytrees,B,"Deletionbecomeseasierwithdoublylinkedlist,henceitisappropriate."
+Which of these are core interfaces in the collection framework,Tree,Stack,Queue,Ma,D,None
+ Which one of the following is an application of Queue Data Structure?,Whenaresourceissharedamongmultipleconsumers.,Whendataistransferredasynchronously(datanotnecessarilyreceivedatsamerateassent)betweentwoprocesses,LoadBalancing,Alloftheabove,D,Noexplanation.
+" In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case linear time?",Insertion,Deletion,Toemptyaqueue,BothInsertionandToemptyaqueue,D,"Sincefrontpointerisusedfordeletion,soworsttimefortheothertwocases."
+How many stacks are needed to implement a queue,1,2,3,4,B,Aqueuecanbeimplementedusingtwostacks.
+"In a Queue, if a user tries to remove an element from empty Queue it is called ",Underflow,Emptycollection,Overflow,GarbageCollection,A,"InaQueue,ifausertriestoremoveanelementfromemptyQueueitiscalledUnderflow."
+" If the elements ""A"", ""B"", ""C"" and ""D"" are placed in a queue and are deleted one at a time, in what order will they be removed?",ABCD,DCBA,DCAB,ABCD,A,BecauseQueuefollowFIFOrule.
+A priority queue can efficiently implemented using which of the following data structures? Assume that the number of insert and peek (operation to see the current highest priority item) and extraction (remove the highest priority item) operations are almost same,Array,LinkedList,"HeapDataStructureslikeBinaryHeap,FibonacciHeap",Noneoftheabove,C,Noexplanation.
+" In case of insertion into a linked queue, a node borrowed from the  list is inserted in the queue",AVAIL,FRONT,REAR,Noneofthementioned,A,AllthenodesarecollectedinAVAILlist.
+If the MAXSIZE is the size of the array used in the implementation of circular queue,rear=(rear%1)+MAX_SIZE,rear=rear%(MAX_SIZE+1),rear=(rear+1)%MAX_SIZE,rear=rear+(1%MAX_SIZE),C,Noexplanation.
+Suppose a circular queue of capacity (n â€“ 1) elements is implemented with an array of n elements,"Full:(REAR+1)modn==FRONT,empty:REAR==FRONT","Full:(REAR+1)modn==FRONT,empty:(FRONT+1)modn==REAR","Full:REAR==FRONT,empty:(REAR+1)modn==FRONT","Full:(FRONT+1)modn==REAR,empty:REAR==FRONT",A,NoExplanation.
+  A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as a ?,ueue,tack,Tree,Linkedlist,A,None.
+  The data structure required for Breadth First Traversal on a graph is?,Stack,Array,Queue,Tree,C,None.
+ A queue is a ?,FIFO(FirstInFirstOut)list,LIFO(LastInFirstOut)list,Orderedarray,Lineartree,A,None.
+"  In Breadth First Search of Graph, which of the following data structure is used?",Stack,Queue,Linkedlist,Noneofthementioned,B,None
+ A data structure in which elements can be inserted or deleted at/from both the ends but not in the middle is?,Queue,Circularqueue,Dequeue,Priorityqueue,C,None.
+" A normal queue, if implemented using an array of size MAXSIZE, gets full when",Rear=MAX_SIZEâ€“1,ront=(rear+1)modMAX_SIZE,Front=rear+1,Rear=front,C,Conditionforsizeofqueue.
+  Queues serve major role in,Simulationofrecursion,Simulationofarbitrarylinkedlist,Simulationoflimitedresourceallocation,Allofthementioned,C,Restallareimplementedusingotherdatastructures.
+ Which of the following is not the type of queue?,Ordinaryqueue,Singleendedqueue,Circularqueue,Priorityqueue,B,Queuealwayshastwoends.
+ Which of the following properties is associated with a queue?,FirstInLastOut,FirstInFirstOut,LastInFirstOut,Noneofthementioned,B,QueuefollowsFirstInFirstOutstructure.
+" What does the following piece of code do?
+ 
+public Object function()
+{
+if(isEmpty())
+return -999;
+else
+{
+Object high;
+high = q[front];
+return high;
+}
+}",Dequeue,Enqueue,Returnthefrontelement,Noneofthementioned,C,"q[front]givestheelementatthefrontofthequeue,sincewearenotmovingtheâ€˜frontâ€™tothenextelemen"
+ What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?,RecurrenceisT(n)=T(n-2)+O(n)andtimecomplexityisO(n^2),RecurrenceisT(n)=T(n-1)+O(n)andtimecomplexityisO(n^2),RecurrenceisT(n)=2T(n/2)+O(n)andtimecomplexityisO(nLogn),RecurrenceisT(n)=T(n/10)+T(9n/10)+O(n)andtimecomplexityisO(nLogn),B,Noexplanation.
+ Which of the following is not a stable sorting algorithm?,Insertionsort,Selectionsort,Bubblesort,Mergesort,B,Selectionsortisnotastablesortingalgorithm.
+  What is an external sorting algorithm?,Algorithmthatusestapeordiskduringthesort,Algorithmthatusesmainmemoryduringthesort,Algorithmthatinvolvesswapping,Algorithmthatareconsideredâ€˜inplaceâ€™,A,"Asthenamesuggests,externalsortingalgorithmusesexternalmemoryliketapeordisk."
+" If the number of records to be sorted is small, then â€¦â€¦ sorting can be efficient",Merge,Heap,Selection,Bubble,C,Selectionsortingcanbeefficient.
+Suppose we have a O(n) time algorithm that finds median of an unsorted array,O(n^2Logn),O(n^2),O(nLognLogn),O(nLogn),D,"Ifweusemedianasapivotelement,thentherecurrenceforallcasesbecomesT(n)=2T(n/2)+O(n)TheaboverecurrencecanbesolvedusingMasterMethod.Itfallsincase2ofmastermethod."
+ Which of the following is not an in-place sorting algorithm?,Selectionsort,Heapsort,Quicksort,Mergesort,D,Mergesortisnotanin-placesortingalgorithm.
+ What is the advantage of bubble sort over other sorting techniques?,Itisfaster,Consumeslessmemory,Detectswhethertheinputisalreadysorted,Allofthementioned,C,Bubblesortisoneofthesimplestsortingtechniquesandperhapstheonlyadvantageithasoverothertechniquesisthatitcandetectwhethertheinputisalreadysorted.
+The complexity of sorting algorithm measures the â€¦â€¦ as a function of the number n of items to be sorter,averagetime,runningtime,average-casecomplexity,case-complexity,B,Thecomplexityofsortingalgorithmmeasurestherunningtimeasafunctionofthenumbernofitemstobesorter.
+" Suppose we are sorting an array of eight integers using quicksort, and we have just finished the first partitioning with the array looking like this: 
+    2  5  1  7  9  12  11  10 
+    Which statement is correct?",Thepivotcouldbeeitherthe7orthe9.,"Thepivotcouldbethe7,butitisnotthe9","Thepivotisnotthe7,butitcouldbethe9",Neitherthe7northe9isthepivot.,A,"7and9bothareattheircorrectpositions(asinasortedarray).Also,allelementsonleftof7and9aresmallerthan7and9respectivelyandonrightaregreaterthan7and9respectively."
+Consider the situation in which assignment operation is very costly,Insertionsort,Selectionsort,Heapsort,None,B,Selectionsort.
+" In the following scenarios, when will you use selection sort?",Theinputisalreadysorted,Alargefilehastobesorted,Largevaluesneedtobesortedwithsmallkeys,Smallvaluesneedtobesortedwithlargekeys,C,"Selectionisbasedonkeys,henceafilewithlargevaluesandsmallkeyscanbeefficientlysortedwithselectionsort."
+ What is the worst case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),DC,"Selectionsortcreatesasub-list,LHSoftheâ€˜minâ€™elementisalreadysortedandRHSisyettobesorted.Startingwiththefirstelementtheâ€˜minâ€™elementmovestowardsthefinalelement."
+ What is the advantage of selection sort over other sorting techniques?,Itrequiresnoadditionalstoragespace,Itisscalable,Itworksbestforinputswhicharealreadysorted,Itisfasterthananyothersortingtechnique,A,"Sinceselectionsortisanin-placesortingalgorithm,itdoesnotrequireadditionalstorage."
+ What is the average case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),D,"Intheaveragecase,eveniftheinputispartiallysorted,selectionsortbehavesasiftheentirearrayisnotsorted.Selectionsortisinsensitivetoinput."
+ What is the disadvantage of selection sort?,Itrequiresauxiliarymemory,Itisnotscalable,Itcanbeusedforsmallkeys,Noneofthementioned,B,"Astheinputsizeincreases,theperformanceofselectionsortdecreases."
+"  The given array is arr = {3,4,5,2,1}",5and4,4and5,2and4,2and5,A,"Sincetheinputarrayisnotsorted,bubblesorttakes5iterationsandselectionsorttakes4(n-1)iterations."
+"  The given array is arr = {1,2,3,4,5}",5and4,1and4,0and4,4and1,B,"Selectionsortisinsensitivetoinput,hence4(n-1)iterations.Whereasbubblesortiteratesonlyoncetosettheflagto0astheinputisalreadysorted."
+What is the best case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),D,"Thebest,averageandworstcasecomplexitiesofselectionsortisO(n2"
+ What is an internal sorting algorithm?,Algorithmthatusestapeordiskduringthesort,Algorithmthatusesmainmemoryduringthesort,Algorithmthatinvolvesswapping,Algorithmthatareconsideredâ€˜inplaceâ€™,B,"Asthenamesuggests,internalsortingalgorithmusesinternalmainmemory."
+What is the worst case complexity of bubble sort?,O(nlogn),O(logn),O(n),O(n2),D,Bubblesortworksbystartingfromthefirstelementandswappingtheelementsifrequiredineachiteration.
+ What is the average case complexity of bubble sort?,O(nlogn),O(logn),O(n),O(n2),D,Bubblesortworksbystartingfromthefirstelementandswappingtheelementsifrequiredineachiterationevenintheaveragecase.
+" The given array is arr = {1,2,4,3}",4,2,1,0,A,"Eventhoughthefirsttwoelementsarealreadysorted,bubblesortneeds4iterationstosortthegivenarray."
+What is the best case efficiency of bubble sort in the improvised version?,O(nlogn),O(logn),O(n),O(n2),B,"Only2elementsinthegivenarrayarenotsorted,henceonly2iterationsarerequiredtosortthem."
+  QuickSort can be categorized into which of the following?,BruteForcetechnique,Divideandconquer,Greedyalgorithm,Dynamicprogramming,B,Firstyoudivide(partition)thearraybasedonthepivotelementandsortaccordingly.
+ What is a randomized QuickSort?,Theleftmostelementischosenasthepivot,Therightmostelementischosenasthepivot,Anyelementinthearrayischosenasthepivot,Arandomnumberisgeneratedwhichisusedasthepivot,C,QuickSortisrandomizedbyplacingtheinputdataintherandomizedfashioninthearrayorbychoosingarandomelementinthearrayasapivot.
+ A  is a special Tree-based data structure in which the tree is a complete binary tree,Graph,Heap,List,Stack,B,AHeapisaspecialTree-baseddatastructureinwhichthetreeisacompletebinarytree.
+ How many type of heap are there?,2,3,4,5,A,Thereare2typesofheap:max-heapandmin-heap.
+In which heap the root node must be greatest among the keys present at all of itâ€™s children?,min-heap,max-heap,BothAandB,Noneoftheabove,B,Max-Heap:InaMax-Heapthekeypresentattherootnodemustbegreatestamongthekeyspresentatallofitâ€™schildren
+What is the complexity of adding an element to the heap?,O(logn),O(logh),O(h),BothAandC,D,Thetotalpossibleoperationinrelocatingthenewlocationtoanewelementwillbeequaltoheightoftheheap.
+ Heap can be used as,Priorityqueue,Stack,Adecreasingorderarray,NormalArray,A,Thepropertyofheapthatthevalueofrootmustbeeithergreaterorlessthanbothofitschildrenmakesitworklikeapriorityqueue.
+ An array consists of n elements,O(n*n*logn),O(n*logn),O(n*n),O(n*logn*logn),B,"ThetotaltimetakenwillbeNtimesthecomplexityofaddingasingleelementtotheheap.AndaddingasingleelementtakeslogNtime,soThatisequaltoN*logN."
+ Which one of the following array elements represents a binary min heap?,12108251417,81012251417,25171412108,14172510128,B,"Atreeisminheapwhendataateverynodeinthetreeissmallerthanorequaltoitâ€™schildrenâ€™sdata.So,only81012251417generatesrequiredtree."
+" Given an array of element 5, 7, 9, 1, 3, 10, 8, 4","1,3,4,5,7,8,9,10","1,4,3,9,8,5,7,10","1,3,4,5,8,7,9,10","1,3,7,4,8,5,9,10",A,"Buildingamin-heaptheresultwillasortedarraysothe1,3,4,5,7,8,9,10iscorrect.Ifwechangetheimplementationstrategy1,4,3,8,9,5,7,10isalsocorrect.(Firstfillingtherightchildratherthanleftchildfirst)."
+ What is the amortized cost per operation of a skew heap?,O(N),O(NlogN),O(N2),O(logN),D,TheamortizedcostperoperationofaskewheapisO(logN)sincetheworstcaseanalysisofskewheapisO(N)andsplaytreeisO(MlogN).
+ How many alphabets are there in Binary language?,2,3,4,5,A,"narylanguagehasonlytwoalphabets,0and1."
+ we write programs in?,Low-LevelLanguage,Middle-LevelLanguage,High-LevelLanguage,Decimal-Format,C,"wewriteprogramsinhigh-levellanguage,whichiseasierforustounderstandandremember."
+  is a program that converts high-level language to assembly language,assembler,compiler,interpreter,linker,B,Acompilerisaprogramthatconvertshigh-levellanguagetoassemblylanguage.
+ A compiler that runs on platform (A) and is capable of generating executable code for platform (B) is called ?,cross-compiler,complex-compiler,object-compiler,post-compiler,A,Acompilerthatrunsonplatform(A)andiscapableofgeneratingexecutablecodeforplatform(B)iscalledacross-compiler.
+ Which of the following is used to link all the parts of the program together for execution?,loader,linker,memory,preprocessor,B,Alinkertoolisusedtolinkallthepartsoftheprogramtogetherforexecution(executablemachinecode).
+ Which of the following tool produces input for compilers?,Interpreter,Assembler,Loader,Preprocessor,D,"Apreprocessor,generallyconsideredasapartofcompiler,isatoolthatproducesinputforcompilers.Itdealswithmacro-processing,augmentation,fileinclusion,languageextension,etc."
+ Does compiler reads the whole source code at once?,Yes,No,Dependsoncompiler,Don'tknow,A,"Acompilerreadsthewholesourcecodeatonce,createstokens,checkssemantics,generatesintermediatecode,executesthewholeprogramandmayinvolvemanypasses"
+" If an error occurs, what interpreter do?",terminateprogram,stopsexecution,readsthewholeprogramevenifitencounterserrors,givewarning,B,"Ifanerroroccurs,aninterpreterstopsexecutionandreportsit."
+" If an error occurs, what compiler do?",terminateprogram,stopsexecution,readsthewholeprogramevenifitencounterserrors,givewarning,C,acompilerreadsthewholeprogramevenifitencountersseveralerrors.
+ The output of an assembler is called?,datafile,taskfile,objectfile,programfile,C,"Anassemblertranslatesassemblylanguageprogramsintomachinecode.Theoutputofanassembleriscalledanobjectfile,whichcontainsacombinationofmachineinstructionsaswellasthedatarequiredtoplacetheseinstructionsinmemory."
+ Pandas is an open-source  Library?,Ruby,Javascript,Java,Python,D,Pandasisanopen-sourcePythonLibraryprovidinghigh-performancedatamanipulationandanalysistoolusingitspowerfuldatastructures.
+ Python pandas was developed by?,GuidovanRossum,TravisOliphant,WesMcKinney,BrendanEich,C,Pandasisahigh-leveldatamanipulationtooldevelopedbyWesMcKinney.
+ Pandas  key data structure is called?,Keyframe,DataFrame,Statistics,Econometrics,B,PandasisbuiltontheNumpypackageanditskeydatastructureiscalledtheDataFrame.
+" What will be output for the following code?
+import pandas as pd
+
+s = pd",1,2,3,4,A,Retrieveasingleelementusingindexlabelvalue.
+" In pandas, Index values must be?",unique,hashable,BothAandB,Noneoftheabove,C,"Indexvaluesmustbeuniqueandhashable,samelengthasdata.Defaultnp.arrange(n)ifnoindexispassed."
+ What will be correct syntax for pandas series?,"pandas_Series(data,index,dtype,copy)","pandas.Series(data,index,dtype)","pandas.Series(data,index,dtype,copy)","pandas_Series(data,index,dtype)",C,"ApandasSeriescanbecreatedusingthefollowingconstructor:pandas.Series(data,index,dtype,copy)"
+ Which of the following is correct Features of DataFrame?,Potentiallycolumnsareofdifferenttypes,CanPerformArithmeticoperationsonrowsandcolumns,Labeledaxes(rowsandcolumns),Alloftheabove,D,Alltheabovearefeatureofdataframe.
+ What will be syntax for pandas dataframe?,"pandas.DataFrame(data,index,dtype,copy)","pandas.DataFrame(data,index,rows,dtype,copy)","pandas_DataFrame(data,index,columns,dtype,copy)","pandas.DataFrame(data,index,columns,dtype,copy)",D,"ApandasDataFramecanbecreatedusingthefollowingconstructor:pandas.DataFrame(data,index,columns,dtype,copy)"
+ A panel is a  container of data,1D,2D,3D,Infinite,C,Apanelisa3Dcontainerofdata.ThetermPaneldataisderivedfromeconometricsandispartiallyresponsibleforthenamepandas:pan(el)-da(ta)-s.
+" Axis 1, in panel represent?",minor_axis,major_axis,items,Noneoftheabove,B,"major_axis:axis1,itistheindex(rows)ofeachoftheDataFrames."
+ Which of the following is true?,"Ifdataisanndarray,indexmustbethesamelengthasdata.",Seriesisaone-dimensionallabeledarraycapableofholdinganydatatype.,BothAandB,Noneoftheabove,C,BothoptionAandBaretrue.
+ Which of the following thing can be data in Pandas?,apythondict,anndarray,ascalarvalue,Alloftheabove,D,Thepassedindexisalistofaxislabels.
+ Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?,DataFrame.from_items,DataFrame.from_records,DataFrame.from_dict,Alloftheabove,A,DataFrame.from_dictoperatesliketheDataFrameconstructorexceptfortheorientparameterwhichis'columns'bydefault.
+ The  project builds on top of pandas and matplotlib to provide easy plotting of data,yhat,Seaborn,Vincent,Pychart,B,Seabornhasgreatsupportforpandasdataobjects.
+ Which of the following makes use of pandas and returns data in a series or dataFrame?,pandaSDMX,freedapi,OutPy,Inpy,B,freedapimodulerequiresaFREDAPIkeythatyoucanobtainforfreeontheFREDwebsite.
+ Why ndim is used?,Returnsthenumberofelementsintheunderlyingdata.,ReturnstheSeriesasndarray.,"Returnsthenumberofdimensionsoftheunderlyingdata,bydefinition1.",Returnsalistoftheaxislabels,C,"ndim:Returnsthenumberofdimensionsoftheunderlyingdata,bydefinition1"
+" What will be output for the following code?
+import pandas as pd
+import numpy as np
+
+s = pd",0,1,2,3,B,"Returnsthenumberofdimensionsoftheobject.Bydefinition,aSeriesisa1Ddatastructure,soitreturns1."
+" What will be output for the following code?
+import pandas as pd
+
+import numpy as np
+
+s = pd",0,1,2,3,C,size:Returnsthesize(length)oftheseries.
+ Which of the following indexing capabilities is used as a concise means of selecting data from a pandas object?,In,ix,ipy,iy,B,ixandreindexare100%equivalent.
+ Which of the following is false?,Theintegerformattracksonlythelocationsandsizesofblocksofdata.,PandasfollowtheNumPyconventionofraisinganerrorwhenyoutrytoconvertsomethingtoabool.,TwokindsofSparseIndexareimplemented,Theintegerformatkeepsanarraysofallofthelocationswherethedataarenotequaltothefillvalue,A,Theblockformattracksonlythelocationsandsizesofblocksofdata.

@@ -1,4 +1,4 @@
-Question,Answer
+question,answer
 Threads within the same process can share data with one another by passing pointers to objects on their stacks.,TRUE
 A user-level process cannot modify its own page table entries.,TRUE
 "Immediately after a process has been forked, the same variable in both the parent and the child will have the same virtual memory address but different physical memory addresses.",FALSE
