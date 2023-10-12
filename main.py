@@ -1,119 +1,177 @@
+#---------------------------importing libraries and modules---------------------------
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer, WordNetLemmatizer
+import random
+from fuzzywuzzy import fuzz
+import pyttsx3
+import speech_recognition as sr
+from difficulty_level_in_ques import mcq_data,oword_data,oline_data,tf_data
 
 
-# Load the CSV files for different question types
-mcq_data = pd.read_csv("dataset/PreprocessedDataSetMCQ.csv")
-oline_data = pd.read_csv("dataset/PreprocessedDataSetOneLiners.csv")
-tf_data=pd.read_csv("dataset/trueFalse.csv")
-oword_data=pd.read_csv("dataset/oneWord.csv")
+# -------------------here the code for speech starts---------------------------
+# ----------above is the dataframe---------------------------------------------
 
-# Preprocess the text data
-def preprocess_text(text):
-        if isinstance(text, str):
-            # check for null
-            words = nltk.word_tokenize(text)
-            words = [word.lower() for word in words]
-            stop_words = set(stopwords.words('english'))
-            words = [word for word in words if word not in stop_words]
-            stemmer = PorterStemmer()
-            lemmatizer = WordNetLemmatizer()
-            stemmed_words = [stemmer.stem(word) for word in words]
-            lemmatized_words = [lemmatizer.lemmatize(word) for word in stemmed_words]
-            processed_text = ' '.join(lemmatized_words)
-            return processed_text
+engine=pyttsx3.init('sapi5') #use nsss for mac
+voice=engine.getProperty('voices')
+engine.setProperty('voice',voice[1].id)
+engine.setProperty('volume',1.0)
+engine.setProperty('pitch',100)
+engine.setProperty('rate',150)
+
+# speech
+def speak(audio):
+    print(audio)
+    engine.say(audio)
+    engine.runAndWait()
+# listening
+def record_answer():
+    r=sr.Recognizer()
+    with sr.Microphone() as source:
+        r.pause_threshold=0.8
+        r.energy_threshold=100
+        audio=r.listen(source)
+
+    try:
+            print("listening")
+            ans=r.recognize_google(audio,language='en-GB')
+            print(ans)
+    except Exception as e:
+            return "None"
+    return ans
+# true false
+def trueFalse(score_acquired,total_questions):
+    df=tf_data
+    speak("Please speak true or false only")
+    noOfQues=df.shape[0]
+    quesBank=random.sample(range(noOfQues),2)
+    total_questions+=len(quesBank)
+    print(quesBank)
+    valid_ans=['true','false']
+    for i in quesBank:
+        speak(df.iloc[i][0])
+        actualAns=df.iloc[i][1]
+        ans=record_answer()
+        while(ans not in valid_ans):
+            speak("please repeat in true false only")
+            ans=record_answer()
+        if(ans==str(actualAns).lower()):
+            speak("correct")
+            score_acquired+=1
+        elif(ans !=None):
+            speak("incorrect")
         else:
-            return '' 
+            speak("No answer received")
+    return (score_acquired,total_questions)
+# one word
+def oneWord(score_acquired,total_questions):
+    speak("Please answer in one word")
+    df=oword_data
+    noOfQues=df.shape[0]
+    quesBank=random.sample(range(noOfQues),2)
+    total_questions+=len(quesBank)
+    print(quesBank)
+    for i in quesBank:
+        speak(df.iloc[i][0])
+        actualAns=df.iloc[i][1]
+        ans=record_answer()
+        if(ans==str(actualAns).lower()):
+            speak("correct")
+            score_acquired+=1
+        elif(ans !=None):
+            speak("incorrect")
+        else:
+            speak("No answer received")
     
+    return (score_acquired,total_questions)
+# mcq
+def mcq(score_acquired,total_questions):
+    # df=pd.read_csv("./dataset/PreprocessedDataSetMCQ.csv")
+    df=mcq_data
+    noOfQues=df.shape[0]
+    quesBank=random.sample(range(noOfQues),2)
+    total_questions+=len(quesBank)
+    valid_ans=['option a','option b','option c','option d']
+    speak("Please only speak the option in terms of option A option B option C option D")
+    for i in quesBank:
+        # question
+        speak(df.iloc[i][0])
+        speak("Option A")
+        speak(df.iloc[i][1])
+        speak("Option B")
+        speak(df.iloc[i][2])
+        speak("Option C")
+        speak(df.iloc[i][3])
+        speak("Option D")
+        speak(df.iloc[i][4])
+        # actual answer
+        actualAns=df.iloc[i][5]
+        ans=record_answer()
+        while(ans.lower() not in valid_ans):
+            speak("Please speak only the option")
+            ans=record_answer()
+        if(ans[-1].lower()==str(actualAns).lower()):
+            print(ans[-1].lower())
+            speak("correct")
+            score_acquired+=1
+        else:
+            print(ans[-1].lower())
+            speak("incorrect")
+            speak("The correct answer is :")
+            speak(df.iloc[i][5])
+            speak("the Explanation of this is :")
+            speak(df.iloc[i][6])
+    return(score_acquired,total_questions)
 
-# calculate difficulty
-def scale_difficulty(dataframe):
-    difficulty_scores = []
+def check_similarity(user_answer, correct_answer):
+    similarity_ratio = fuzz.ratio(user_answer.lower(), correct_answer.lower())
+    return similarity_ratio
 
-    for question in dataframe["question"]:
-        words = nltk.word_tokenize(question)
-        question_tags = nltk.pos_tag(words)
-        
-        difficulty_score = 0
-        for _, tag in question_tags:
-            if tag in ["NN", "NNS", "NNP", "NNPS", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ", "JJ", "JJR", "JJS"]:
-                difficulty_score += 1
-            elif tag == "RB" or tag == "RBR" or tag == "RBS":
-                difficulty_score += 0.5
-        difficulty_scores.append(difficulty_score)
+def oneLiner(score_acquired,total_questions):
+    df=oline_data
+    noOfQues=df.shape[0]
+    quesBank=random.sample(range(noOfQues),2)
+    total_questions+=len(quesBank)
+    print(quesBank)
 
-    # Scale the difficulty scores to a 0-10 range
-    scaled_difficulty_scores = [int(score) for score in difficulty_scores]
+    for i in quesBank:
+            speak(df.iloc[i][0])
+            actualAns=df.iloc[i][1]
+            ans=record_answer()
+            similarity_ratio=check_similarity(user_answer=ans,correct_answer=actualAns)
 
-    # Assign the scaled difficulty scores to the questions.
-    dataframe["difficulty_level"] = scaled_difficulty_scores
-    return dataframe
+            if similarity_ratio>=70:
+                 print("Correct! Your answer matches the stored answer.")
+                 score_acquired+=1
+            else:
+                  print("Answer can be frames as :",df.iloc[i][1])
+    
+    return (score_acquired,total_questions)
 
+# __main__
+def answer_question():
+    # keeping record of the correct answer
+    score_acquired=0;
+    total_questions=0;
+    speak("welcome to the test environment")
+    # asking MCQ
+    (mcq_score,questions_asked)=mcq(score_acquired=0,total_questions=0)
+    score_acquired+=mcq_score
+    total_questions+=questions_asked
+    print("Score in MCQ",mcq_score)
+    # asking True False
+    (true_false_score,questions_asked)=trueFalse(score_acquired=0,total_questions=0)
+    score_acquired+=true_false_score
+    total_questions+=questions_asked
+    print("Score in True/False",mcq_score)
 
-for dataframe in [mcq_data,oline_data,tf_data,oword_data]:
-    dataframe=scale_difficulty(dataframe)
+    # asking One word
+    (oneWord_score,questions_asked)=oneWord(score_acquired=0,total_questions=0)
+    score_acquired+=oneWord_score
+    total_questions+=questions_asked
+    print("Score in one word",oneWord_score)
+    # asking one liner
+    (oneLiner_score,questions_asked)=oneLiner(score_acquired=0,total_questions=0)
+    score_acquired+=oneLiner_score
+    total_questions+=questions_asked
+    print("Score in one Liners",oneLiner_score)
+    print(score_acquired,total_questions)
 
-
-# Preprocess MCQ
-cleaned_mcq_data = mcq_data.copy()
-columns_to_preprocess = ['question', 'A', 'B', 'C', 'D', 'answer', 'explanation']
-for column in columns_to_preprocess:
-    cleaned_mcq_data[column] = cleaned_mcq_data[column].apply(preprocess_text)
-
-# Preprocess One Liners data
-cleaned_oline_data = oline_data.copy()
-cleaned_oline_data['question'] = cleaned_oline_data['question'].apply(preprocess_text)
-cleaned_oline_data['answer'] = cleaned_oline_data['answer'].apply(preprocess_text)
-
-#  Preprocess True/False data
-cleaned_tf_data = tf_data.copy()
-cleaned_tf_data['question'] = cleaned_tf_data['question'].apply(preprocess_text)
-cleaned_tf_data['answer'] = cleaned_tf_data['answer'].apply(preprocess_text)
-
-#  Preprocess One Word data
-cleaned_oword_data = oword_data.copy()
-cleaned_oword_data['question'] = cleaned_oword_data['question'].apply(preprocess_text)
-cleaned_oword_data['answer'] = cleaned_oword_data['answer'].apply(preprocess_text)
-
-# Calculate similar questions and remove similar questions
-def vectorization(data):
-    vectorizer = TfidfVectorizer()
-    question_vectors = vectorizer.fit_transform(data)
-    cosine_similarities = cosine_similarity(question_vectors, question_vectors)
-    similarity_threshold = 0.8
-    questions_to_remove = []
-    for i in range(len(cosine_similarities)):
-        for j in range(i + 1, len(cosine_similarities)):
-            if cosine_similarities[i][j] > similarity_threshold:
-                avg_similarity_i = sum(cosine_similarities[i]) / len(cosine_similarities[i])
-                avg_similarity_j = sum(cosine_similarities[j]) / len(cosine_similarities[j])
-                
-                if avg_similarity_i > avg_similarity_j:
-                    questions_to_remove.append(j)
-                else:
-                    questions_to_remove.append(i)
-
-    return questions_to_remove
-
-# List of original DataFrames and their corresponding cleaned versions
-data_frames = [
-    (mcq_data, cleaned_mcq_data),
-    (oline_data, cleaned_oline_data),
-    (oword_data, cleaned_oword_data),
-    (tf_data, cleaned_tf_data)
-]
-
-# Iterate over the original DataFrames and their cleaned versions
-for original_dataframe, cleaned_dataframe in data_frames:
-    questions_to_remove = vectorization(cleaned_dataframe['question'])
-    original_dataframe.drop(original_dataframe.index[questions_to_remove], inplace=True)
-
-
-print(mcq_data)
-print(oline_data)
-print(oword_data)
-print(tf_data)
