@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceMe Assit</title>
+    <script>
+        // js here
+        function checkAns(option,ans,explanation,score,total){
+            if(option==ans){
+                alert("correct!")
+                score+=1
+            }
+            else{
+                alert("wrong!,{{explanation}}")
+            }
+            if (total < 5) {
+            // total+=1
+            window.location.href = '/questionMCQ';
+        } else {
+            alert("Quiz Completed!\nScore: " + score + "/" + total);
+            // Redirect to a result page or wherever you want
+            window.location.href = '/result';
+        }
+            
+        }
+    </script>
+</head>
+<body>
+    <h2>{{ques}}</h2>
+    <div>
+        {{difficulty}}
+    </div>
+    <button onclick="checkAns('A','{{answer}}','{{explanation}}','{{score_acquired_mcq}}','{{total_mcq_asked}}')">
+        {{options[0]}}
+    </button>
+    <button onclick="checkAns('B','{{answer}}','{{explanation}}','{{score_acquired_mcq}}','{{total_mcq_asked}}')">
+        {{options[1]}}
+    </button>
+    <button onclick="checkAns('C','{{answer}}','{{explanation}}','{{score_acquired_mcq}}','{{total_mcq_asked}}')">
+        {{options[2]}}
+    </button>
+    <button onclick="checkAns('D','{{answer}}','{{explanation}}','{{score_acquired_mcq}}','{{total_mcq_asked}}')">
+        {{options[3]}}
+    </button>
+    
+</body>
+</html>

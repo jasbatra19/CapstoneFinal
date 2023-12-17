@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p class="mcq"><span class = "ques">1. What is a Data Structure?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Data structure is a way that specifies how to organize and manipulate the data so that the data can be used efficiently. It also specify the relationship between them. Some example of data structure are - array, linked list, stack etc. 
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">2. What are linear and non linear data Structures?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-<br/><br/>
+        <b>Linear Data Structure:</b>  If all the elements are arranged in sequential order then it is called linear data strucutre for example Array, Linked List. <br/>
+        <b>Non Linear Data Structure</b> If the elements are not arranged in sequential order then it is called non linear data structure for example Tree, Graph. 
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">3. How Linked list is different from array?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Differences between array and linked list are - <br/>
+        1)&nbsp; Arrays are index based data structure where each element is associated with an index. On the other hand, Linked list relies on references where each node consists of the data and the references to the previous and next element.<br/>
+        2)&nbsp; The size of the arrays is fixed, Linked Lists are Dynamic in size.<br/>
+        3)&nbsp; In array elements are accessed randomly using index while in linked list elements are accessed in sequence.<br/>
+        4)&nbsp; Insertion and Deletion operations are expensive in array whereas it can be easily done in linked list.<br/>
+        5)&nbsp; Extra memory space is required in linked list for storing address of next node.<br/>
+        6)&nbsp; Element location is allocated during compile time in array while in linked list it is done during run time.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">4. What are the criteria of algorithm analysis?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Algorithms are analyzed on the basis of 2 factors - time and space. Time specify how much execution time and space specify how much extra space is required by the algorithm.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">5. What are the operations that can be performed on a data-structures?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Following operations can be performed - <br/><br/>
+        &nbsp;<b>Insertion :</b>Adding a new data item.<br/>
+        &nbsp;<b>Deletion :</b>Deleting the existing data item.<br/>
+        &nbsp;<b>Traversal :</b>Accessing each data item.<br/>
+        &nbsp;<b>Searching :</b>Finding a particular data item.<br/>
+        &nbsp;<b>Sorting :</b>Arranging the data item in a particular sequence.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">6. Explain the difference between Divide & Conquer and Dynamic programming? <br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  In divide and Conquer approach we divide the problem into minimum possible sub-problem and solve them independently. Divide-and-Conquer is a Top-Down Technique. In Dynamic Programming we diving the problem to a minimum possible sub-problem and solve them combinedly. Dynamic Programming is a Bottom-Up Technique.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">7. Which data structure is used to perform recursion?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Stack is used to perform recursion due its Last in First Property. Recursion makes use of system stack for storing the return addresses of the function calls.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">8. What are the operations that can be performed on a stack?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Various operations that can be performed on a stack are - <br/><br/>
+        &nbsp;<b>Push Operation : </b> Inserting the data item into the stack.<br/>
+        &nbsp;<b>Pop Operation : </b> Deleting the data item from the stack.<br/>
+        &nbsp;<b>Peek Operation: </b> Get the data item which is on the top of the stack, without removing it.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">9. Explain Infix, prefix, Postfix notations?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- <br/><br/> 
+        In <b>Infix Notation</b> operators are written in-between their operands. For example ->  A + B * C + D.<br/> In <b>Prefix Notation</b> operators are written before their operands. For example -> + + A * B C D.<br/> In <b> Postfix Notation</b> operators are written after their operands. For example ->     A B C * + D +. 
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">10. What is a queue in data-structure?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Queue is a linear data structure where the elements are inserted from one end called REAR and deleted from the other end called as FRONT. It follow First In First Out (FIFO) i.e the first element that is added to the queue is the first one to be removed.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">11. How to implement a stack using queue?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Stack can be implemented using 2 queues. To push an item in the stack, we first move all elements from the first queue to the second queue, then push new item into the first queue, and finally move all elements back to the first queue. This ensures that the new item lies at front of the queue and hence would be the first one to be removed. To pop an item from the stack, we simply return the front item from the first queue.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">12. What is Brute Force algorithm?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Brute force means that you will go through all possible solutions extensively. For example, in a chess game, if you know you can win in two moves, the brute force will go through all possible combination of moves, without taking anything in consideration. So the little pawn in the back that cannot influence the outcome will still be considered.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">13. What is the wrost case complexity of merge sort and quick sort?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  <br/><br/>
+        <b>Merge sort :</b> n*log(n)<br/>
+        <b>Quick sort :</b> n^2 
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">14. What is shell sort?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Shell sort is a is a generalized version of insertion sort. It is a  highly efficient sorting algorithm. In shell sort we break the original list into a number of smaller sublists, each of which is sorted using an insertion sort. 
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">15. Which data structures are used for BFS and DFS of a graph?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Queue is used for BFS while Stack is used for DFS.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">16. What is a binary search tree?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Binary search tree is a binary tree in which all nodes of left subtree are less than root node and all nodes of right subtree are more than root node.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">17. What is an AVL Tree?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  AVL tree is a self-balancing Binary Search Tree where the difference between heights of left and right subtrees cannot be more than one for all nodes.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">18. What is a spanning tree?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  A spanning tree is a subset of a graph, which has all the vertices covered with minimum possible number of edges. It cannot be disconnected and does not have cycles.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">19. What is hashing technique?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Hashing is a technique where search time is independent of the number of items or elements. In this technique a hash function is used to generate an address from a key. The hash function takes a key as input and returns the hash value of that key which is used as an address index in the array.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">20. what is heap data structure?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-  Heap is a tree based data structure which satisfy the heap property. Heap can be of 2 type - <br/>
+        <b>Min Heap : </b> In this the value of the root node is less than or equal to either of its children. The same property must be recursively true for all sub-trees in that Binary Tree.<br/>
+        <b>Max Heap : </b> In this the value of the root node is greater than or equal to either of its children. The same property must be recursively true for all sub-trees in that Binary Tree.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">21. What is interpolation search technique?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- The Interpolation Search is an improvement over Binary Search for instances, where the values in a sorted array are uniformly distributed.Interpolation search may go to different locations according to the value of the key being searched.<br/><b>For example</b> :-  If the value of the key is closer to the last element, interpolation search is likely to start search toward the end side.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">22. What is tower of hanoi?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- The Tower of Hanoi is one of the most popular puzzle of the nineteenth century. It consists of three pegs mounted on a board together and consists of disks of different sizes. At first, all the disks are kept on one peg(say peg 1) with the largest peg at the bottom and the size of pegs gradually decreases to the top.<br/>The goal of this puzzle is to transfer all the disks from one peg to another in order of size, placing the largest one at the bottom.<br/> The rule of the puzzle is that we can move a disk from one peg to another as long as the disk is never placed on the top of the smaller one.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">23. What is the primary advantage of a linked list?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Linked List can grow and shrink during run time. Insertion and Deletion Operations are Easier.
+        </p>
+    <p class="mcq"><span class = "ques">1. What is JAVA?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Java is a widely used programming language expressly designed for use in the distributed environment of the internet. It is the most popular programming language for Android smartphone applications and is also among the most favored for the development of edge devices and the internet of things.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">2. Major Differences between JAVA and C++?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- There are lot of differences, some of the major differences are:<br/><br/>
+        1)&nbsp; C++ is mainly used for system programming.Java is mainly used for application programming. It is widely used in window, web-based, enterprise and mobile applications.<br/>
+        2)&nbsp; C++ supports multiple inheritance.Java doesn't support multiple inheritance through class. It can be achieved by interfaces in java.<br/>
+        3)&nbsp; C++ supports pointers. You can write pointer program in C++.
+        Java supports pointer internally. But you can't write the pointer program in java. It means java has restricted pointer support in java.<br/>
+        4)&nbsp; C++ is platform-dependent.Java is platform-independent.<br/>
+        5)&nbsp; C++ uses compiler only. C++ is compiled and run using the compiler which converts source code into machine code so, C++ is platform dependent. Java uses compiler and interpreter both. Java source code is converted into bytecode at compilation time. The interpreter executes this bytecode at runtime and produces output. Java is interpreted that is why it is platform independent.<br/>
+        6)&nbsp; C++ supports structures and unions.  Java doesn't support structures and unions.<br/>
+        7)&nbsp; C++ doesn't support documentation comment. Java supports documentation comment (/** ... */) to create documentation for java source code.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">3. What are the features in JAVA?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Java is a general-purpose programming language developed with the aim to bring portability and a higher level of security. Other than these two main java features, there are many other features of Java that make it such a unique and popular language.<br/></br>
+        <b>List of features of Java programming languages —</b><br/>
+        1)&nbsp; Simple<br/>
+        2)&nbsp; Object-Oriented<br/>
+        3)&nbsp; Portable<br/>
+        4)&nbsp; Platform Independent<br/>
+        5)&nbsp; Secured<br/>
+        6)&nbsp; Robust<br/>
+        7) &nbsp;Architecture Neutral<br/>
+        8)&nbsp; Dynamic<br/>
+        9)&nbsp; High Performance<br/>
+        10)&nbsp; Multi-Threaded<br/>
+        11)&nbsp; Distributed<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">4. What do you understand by Java virtual machine?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- JVM (Java Virtual Machine) is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed.<br/>JVMs are available for many hardware and software platforms (i.e. JVM is platform dependent).<br/><br/>
+        1)&nbsp; A specification where working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Sun and other companies.<br/>
+        2)&nbsp; An implementation Its implementation is known as JRE (Java Runtime Environment).<br/>
+        3)&nbsp; Runtime Instance Whenever you write java command on the command prompt to run the java class, an instance of JVM is created.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">5. What is the difference between JDK, JRE, and JVM?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Following are the differences between JDK, JRE, and JVM:<br/></br>
+        &nbsp;<b> JDK </b>:-Java Development Kit is the core component of Java Environment and provides all the tools, executables and binaries required to compile, debug and execute a Java Program. JDK is a platform-specific software and that’s why we have separate installers for Windows, Mac, and Unix systems.<br/>
+        &nbsp;<b> JVM </b>:-JVM is the heart of Java programming language. When we run a program, JVM is responsible for converting Byte code to the machine specific code. JVM is also platform dependent and provides core java functions like memory management, garbage collection, security etc.<br/>
+        &nbsp;<b> JRE </b>:-JRE is the implementation of JVM, it provides a platform to execute java programs. JRE consists of JVM and java binaries and other classes to execute any program successfully. JRE doesn’t contain any development tools like java compiler, debugger etc. <br/> </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">6.How many types of memory areas are allocated by JVM?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- There are six main types of memory areas that are allocated by JVM. These include:<br/><br/>
+        1.&nbsp; <b>Class loader</b> – a subsystem of JVM that is used to load class files.<br/>
+        2.&nbsp; <b>Class (Method) Area </b>– stores per-class structures such as the runtime constant pool, field and method data, the code for methods.<br/>
+        3.&nbsp; <b> Heap </b>- is the runtime data area in which objects are allocated.<br/>
+        4.&nbsp; <b>Stack </b>- stores frames and holds local variables and partial results. Participates in method invocation and return.<br/>
+        5.&nbsp; <b>Program Counter (PC) Register </b>- contains the address of the JVM instruction that is currently being executed.<br/>
+        6. &nbsp;<b>Native Method Stack </b>- contains all native methods used in the application.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">7. What is JIT compiler?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- It is used to improve performance. JIT compiles parts of the bytecode that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. Here the term “compiler� refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">8. What are the main differences between the Java platform and other platforms?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- The three major differences between Java platform and most other platforms are:<br/><br/>
+        1) &nbsp;It is a software-based platform while others can be hardware based or hardware software platform.<br/>
+        2)&nbsp;Java supports WORA (Write once run anywhere),which means it is platform independent, but many of other platforms does not provide such feature.<br/>
+        3) &nbsp;The Java API enable users to write java program, which are converted to byte code by interpreter and then into machine language by complier, whereas other platform provide either complier or interpreter.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">9. What is classloader?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- We know that Java Program runs on Java Virtual Machine (JVM). When we compile a Java Class, it transforms it in the form of bytecode that is platform and machine independent compiled program and stores it as a .class file. After that when we try to use a Class, Java ClassLoader loads that class into memory.<br/> 
+        1)&nbsp; <b>Bootstrap Class Loader :</b>It loads JDK internal classes, typically loads rt.jar and other core classes for example java.lang.* package classes.<br/>
+        2)&nbsp; <b>Extensions Class Loader :</b>It loads classes from the JDK extensions directory, usually $JAVA_HOME/lib/ext directory.<br/>
+        3)&nbsp; <b>System Class Loader :</b>It loads classes from the current classpath that can be set while invoking a program using -cp or -classpath command line options.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">10. What is the default value of the local variables?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- The local variables are not initialized to any default value, neither primitives nor object references.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">11. What are the various access specifiers in Java?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- You must have seen public, private and protected keywords while practising java programs, these are called access modifiers. An access modifier restricts the access of a class, constructor, data member and method in another class. In java we have four access modifiers:<br/><br/>
+        1)&nbsp; <b>Default</b>:When we do not mention any access modifier, it is called default access modifier. The scope of this modifier is limited to the package only. This means that if we have a class with the default access modifier in a package, only those classes that are in this package can access this class. No other class outside this package can access this class.<br/>
+        2)&nbsp;<b>Private</b>:Methods, variables, and constructors that are declared private can only be accessed within the declared class itself.Private access modifier is the most restrictive access level. Class and interfaces cannot be private.Variables that are declared private can be accessed outside the class, if public getter methods are present in the class.<br/>
+        3)&nbsp;<b>Public</b>:A class, method, constructor, interface, etc. declared public can be accessed from any other class. Therefore, fields, methods, blocks declared inside a public class can be accessed from any class belonging to the Java Universe.<br/>
+        4)&nbsp;<b>Protected</b>:Variables, methods, and constructors, which are declared protected in a superclass can be accessed only by the subclasses in other package or any class within the package of the protected members' class.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">12. Can we Overload or Override static methods in java ?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-<br/><br/>
+        <b>Can we overload static methods?</b>:- The answer is ‘Yes’. We can have two ore more static methods with same name, but differences in input parameters.<br/>
+        <b>Can we Override static methods in java? </b>:- We can declare static methods with same signature in subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is ‘No’. Static methods cannot be overridden because method overriding only occurs in the context of dynamic (i.e. runtime) lookup of methods. Static methods (by their name) are looked up statically (i.e. at compile-time).</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">13. What are the advantages of Packages in Java?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-There are various advantages of defining packages in Java.<br/>
+        1)&nbsp;Packages avoid the name clashes.<br/>
+        2)&nbsp;The Package provides easier access control.<br/>
+        3)&nbsp;We can also have the hidden classes that are not visible outside and used by the package.<br/>
+        4)&nbsp;It is easier to locate the related classes.<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">14. What is object-oriented paradigm?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- It is a programming paradigm based on objects having data and methods defined in the class to which it belongs. Object-oriented paradigm aims to incorporate the advantages of modularity and reusability. Objects are the instances of classes which interacts with one another to design applications and programs. There are the following features of the object-oriented paradigm.<br/><br/>
+        1)&nbsp; Follows the bottom-up approach in program design.<br/>
+        2)&nbsp; Focus on data with methods to operate upon the objects data<br/>
+        3)&nbsp;Includes the concept like Encapsulation and abstraction which hides the complexities from the user and show only functionality.<br/>
+        4)&nbsp;Implements the real-time approach like inheritance, abstraction, etc.<br/>
+        5)&nbsp;The examples of the object-oriented paradigm are C++, Simula, Smalltalk, Python, C#, etc.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">15. What is the constructor? <br/></span>
+        <p class = "options">
+        <b>Answer</b>:-A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">16. Does constructor return any value? <br/></span>
+        <p class = "options">
+        <b>Answer</b>:-yes, The constructor implicitly returns the current instance of the class.<br/> (You can't use an explicit return type with the constructor)<br/>
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">17. How many types of constructors are used in Java?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Based on the parameters passed in the constructors, there are two types of constructors in Java.<br/><br/>
+        1)&nbsp; <b>Default Constructor</b>: A Constructor with no parameters is called as Default Constructor or no-arg constructor. In the below code we have created the no-arg constructor which gets called during the time of object creation.<br/><b>Example</b>: (Abc a = new Abc())<br/>
+        2)&nbsp;<b>Parameterized Constructor</b>:A Constructor which has parameters in it called as Parameterized Constructors, the Parameterized constructor is used to assign different values for the different objects.  In the below example we have a parameterized constructor for the car class which set the value for the parameter “Color� <br/>
+        <b>Example</b>: Abc(String Color)</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">18. What is the static block?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- Static block is a set of statements, which will be executed by the JVM before execution of main method.<br/>
+        At the time of class loading if we want to perform any activity we have to define that activity inside static block because this block execute at the time of class loading.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">19. What is the static method?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:- <br/><br/>
+        1)&nbsp;A static method belongs to the class rather than the object.<br/>
+        2)&nbsp;There is no need to create the object to call the static methods.<br/>
+        3)&nbsp;A static method can access and change the value of the static variable.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">20. What are the main uses of this keyword?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-There are the following uses of this keyword.<br/><br/>
+        1)&nbsp;<b>this</b> can be used to refer to the current class instance variable.<br/>
+        2)&nbsp; <b>this </b>can be used to invoke current class method (implicitly)<br/>
+        3) &nbsp;<b>this()</b> can be used to invoke the current class constructor.<br/>
+        4)&nbsp;<b>this</b> can be passed as an argument in the method call.<br/>
+        5)&nbsp; <b>this</b> can be passed as an argument in the constructor call.<br/>
+        6)&nbsp; <b>this</b> can be used to return the current class instance from the method.
+        </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">21. Which class is the superclass for all the classes?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-The object class is the superclass of all other classes in Java.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">22. What is aggregation?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Aggregation in Java is a relationship between two classes that is best described as a "has-a" and "whole/part" relationship. It is a more specialized version of the association relationship. The aggregate class contains a reference to another class and is said to have ownership of that class. Each class referenced is considered to be part-of the aggregate class.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">23. What is composition?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Composition in java is the design technique to implement has-a relationship in classes. We can use java inheritance or Object composition in java for code reuse.Java composition is achieved by using instance variables that refers to other objects. <br/>
+        <b>For example</b>:- A Person has a Job. </p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">24. Why does Java not support pointers?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-The pointer is a variable that refers to the memory address. They are not used in Java because they are unsafe(unsecured) and complex to understand.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">25. What are the main uses of the super keyword?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-The main uses of the super keyword is :-<br/><br/>
+        1) super.< variable_name > refers to the variable of variable of parent class.<br/>
+        2) super() invokes the constructor of immediate parent class.<br/>
+        3) super.< method_name > refers to the method of parent class.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">26. What is the difference between the final method and abstract method?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Final method is a method that is marked as final, i.e. it cannot be overridden anymore. Just like final class cannot be inherited anymore.<br/>
+        Abstract method, on the other hand, is an empty method that is ought to be overridden by the inherited class. Without overriding, you will quickly get compilation error.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">27. What is the difference between compile-time polymorphism and runtime polymorphism?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-There are the following differences between compile-time polymorphism and runtime polymorphism.<br/><br/>
+        <b>compile-time polymorphism</b>:-<br/>
+        1)In compile-time polymorphism, call to a method is resolved at compile-time.<br/>
+        2) It is also known as static binding, early binding, or overloading.<br/>
+        3) Overloading is a way to achieve compile-time polymorphism in which, we can define multiple methods or constructors with different signatures.<br/>
+        4) It provides fast execution because the type of an object is determined at compile-time.<br/><br/>
+        <b>Run-time polymorphism</b>:-<br/>
+        1)In runtime polymorphism, call to an overridden method is resolved at runtime.<br/>
+        2)It is also known as dynamic binding, late binding, overriding, or dynamic method dispatch.<br/>
+        3) Overriding is a way to achieve runtime polymorphism in which, we can redefine some particular method or variable in the derived class. By using overriding, we can give some specific implementation to the base class properties in the derived class.<br/>
+        4) It provides slower execution as compare to compile-time because the type of an object is determined at run-time.</p>
+        </p>
+        <br/>
+        <p class="mcq"><span class = "ques">28. What is the difference between static binding and dynamic binding?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-There are the following differences between static binding and dynamic binding.<br/><br/>
+        <b>Static binding</b>:-<br/>
+        1) Static binding in Java occurs during Compile time. <br/>
+        2) private, final and static methods and variables uses static binding and bonded by compiler.<br/>
+        3) Static binding uses Type(Class in Java)  information for binding.<br/>
+        <br/><br/>
+        <b>Dynamic binding</b>:-<br/>
+        1) Dynamic binding occurs during Runtime.<br/>
+        2)virtual methods are bonded during runtime based upon runtime object.<br/>
+        3) Dynamic binding uses Object to resolve binding.<br/></p>
+        </p>
+        <br/>
+        <p class="mcq"><span class = "ques">29. What is the abstraction?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Data Abstraction is the property by virtue of which only the essential details are displayed to the user.The trivial or the non-essentials units are not displayed to the user.<br/>
+        <b>Example:</b> A car is viewed as a car rather than its individual components.</p>
+        </p> <br/>
+        <p class="mcq"><span class = "ques">30. What is the abstract class?<br/></span>
+        <p class = "options">
+        <b>Answer</b>:-Abstract class in Java is similar to interface except that it can contain default method implementation. An abstract class can have an abstract method without body and it can have methods with implementation also.<br/>
+        <b>Abstract class in Java Important Points</b><br/>
+        1) abstract keyword is used to create an abstract class in java.<br/>
+        2) Abstract class in java can’t be instantiated.<br/>
+        3) We can use abstract keyword to create an abstract method, an abstract method doesn’t have body.<br/>
+        4) If a class have abstract methods, then the class should also be abstract using abstract keyword, else it will not compile.<br/>
+        </p>
+        <p class="mcq"><span class = "ques">1. What is C language?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-  C is a general purpose, procedural programming language and developed at Bell labs by Dennis Ritchie in 1972-73. It is widely used programming language particularly used for system programming because it produces code that runs nearly as fast as the code written in assembly language. Today most of the operating systems are written in C language. C is a middle level language since it has feature of both low and high level language.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">2. What are the features of C programming language?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- <br/><br/>
+            <b>Fast & Efficient</b>: Programs Written in C are efficient and fast. This is due to its variety of data type and powerful operators.<br/>
+            <b>Portable</b>: C can run on any machine with little or no modifications.<br/>
+            <b>Middle Level Language</b>: It include feature of both high and low level programming language.<br/>
+            <b>Structured</b>: It divides the problem into smaller modules called functions or procedures.<br/>
+            <b>Extensible</b>: C is an extensible language as it can adopt new features.<br/>
+            </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">3. Explain some real life applications of C programming language?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Some of the real life applications of C programming language are - <br/></br>
+            1. <b> Operation System </b><br/>
+            2. <b> Development of new language</b><br/>
+            3. <b> Embedded System</b><br/>
+            4. <b> Computation Platforms</b><br/>
+            5. <b> Graphics and Games</b>
+            </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">4. What are the fundamental data types in C programming?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- integer(int), floating point(float), character(char) and void.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">5. What are the return values of printf and scanf?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- <br/></br>
+            <b>printf()</b> returns total number of characters printed and if there is some error then it returns a negative value.<br/>
+            <b>scanf()</b> returns the total number of input values that are scanned and if there is some input failure or error then it returns EOF.
+            </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">6. What is difference between i++ and ++i?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- i++ is known as Post Increment in which first value is used and then incremented whereas ++i is called Pre Increment in which value is first incremented and then used. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">7. What is the use of static variable in c?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A static variable is a variable whose lifetime doesn’t end with a function call where it is declared. All calls to the function share the same copy of static variables. For example static variables can be used to count the number of times a function is called. Also, static variables get the default value as 0. It is initialized only once in the memory heap to reduce the memory usage. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">8. What is volatile keyword?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The volatile keyword is intended to prevent the compiler from applying any optimizations on variable that can change in ways that cannot be determined by the compiler. Variables declared as volatile are omitted from optimization because their values can be changed by code outside the scope of current code at any time.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">9. How negative values are stored in c?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Negative numbers are stored in 2's compliment form. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">10. What is a dangling pointer?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Dangling pointer is a pointer variable which holds the address (integer value) of that memory location which is removed or doesn't exist or you can say a pointer pointing to a memory location that has been deleted is called dangling pointer. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">11. Can a program be compiled without a main() function?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Yes, we can compile a C program without main function but it will not be exceuted as its execution starts from the main function only.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">12. What is lvalue and rvalue?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The value which appears on left side of assignment operator is called as lvalue while which appears on right side is called rvalue.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">13. What are command line arguments?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-Command line argument is used to pass the values to the main() function of any program. By command line argument we are actually passing values to our C program when they are executed. Command line arguments are given after the name of the program in command line shell of Operating Systems.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">14. What is recursion?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Recursion is the process in which function call itself. Recursive functions are very useful to solve many mathematical problems. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">15. What is the difference between malloc and calloc? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Both malloc and calloc are used in C programming language for dynamic memory allocation they obtain blocks of memory dynamically. The fundamental difference that exists between malloc and calloc in C language is calloc() requires two arguments while malloc() require one argument. malloc() doesn’t initialize the allocated memory while calloc() allocates the memory and also initializes the allocated memory block to zero  </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">16. What is the difference between Call by Value and Call by Reference?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- There are two ways to pass arguments or parameters to function calls - call by value and call by reference. In call by value the value of the actual parameters are copied into the formal parameters and operations are applied on copied value not on original value while in call by reference the address of the variables are passed into the function call as the actual parameter and operations are performed on actual values i.e actual values are altered.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">17. What are header files and its uses?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Header files are also known as library files. They contain two essential things: the definitions and prototypes of functions being used in a program. Header Files are included in the beginning of the program. It is a predefined code and we have to simply include the file. It has .h extension. It contains C declarations and macro definition. For eg - stdio.h</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">18. What are the different file extensions involved when programming in C?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Source code is saved with .c extension and when compiled it generate .obj file and .exe file. Also we have header files with extension .h </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">19. What is the difference between functions abs() and fabs()?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Both funtion are used to get the absolute value only difference is that abs() is used for integer values while fabs() is used for floating numbers.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">20. What are actual and formal parameters?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Actual parameters are the parameters that are passed with function call while parameters or arguments which are mentioned in the definition of the function is called formal arguments. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">21. What is the difference between structure and union?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Structure and union both are user defined data types which contains variables of different data types. Both of them have same syntax for definition, declaration of variables and for accessing members. The only difference is that in a structure all members gets memory allocated while in union compiler allocates the memory for the largest of all members and in a union all members have offset zero from the base and only one variable can be used at a time in union.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">22. What is the difference between getchar and getch?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- getchar() is a standard function that gets a character from the stdin while getch() is non-standard it gets a character from the keyboard (which may be different from stdin) and does not echo it.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">23. What is type casting in c? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Type casting is a way to convert a variable from one data type to another data type. For example you can convert double value to integer. Typecasting is of 2 types implicit and explicit. Implicit conversions do not require any operator for converted. They are automatically performed when a value is copied to a compatible type in the program. The type conversion performed by the programmer by posing the data type of the expression of specific type is known as explicit type conversion.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">24. What is a void pointer? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A Void pointer is a generic pointer in programming. If the pointer type is unknown, we make use of the void pointer. A void pointer is a pointer that has no associated data type with it. A void pointer can hold address of any type and can be typcasted to any type.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">25. Explain pointers in C programming?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Pointers in C Programming Language is a variable that stores the address of another variable. To access address of a variable to a pointer, we use the unary operator & (ampersand) that returns the address of that variable. For example &q gives us address of variable q. A Pointer in C is used to allocate memory dynamically i.e. at run time.  * is used to denote that p is pointer variable and not a normal variable.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">26. What is the use of a semicolon (;) at the end of every program statement?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Semicolon is a statement terminator in C to help the parser figure out where the statement ends since, by default statements in C can have any number of lines. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">27. What is the difference between declaration and definition of a function?
+            <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Declarations tell the compiler that a program element or name exists. A declaration introduces one or more names into a program. Declarations can occur more than once in a program. Function declaration declares the name of the function and the type of what it returns. Definitions specify what code or data the name describes. A name must be declared before it can be used. A function definition defines the function body, and defines what happens when the function is called. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">28. What is memory leak?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- In computer science, a memory leak is a particular type of unintentional memory consumption by a computer program where the program fails to release memory when no longer needed. This condition is normally the result of a bug in a program that prevents it from freeing up memory that it no longer needs.</p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">29. What is scope of variable in c?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A scope is a region for the variable where the variable can be accessible. Global variables hold their values throughout the lifetime of the program and they can be accessed inside any of the functions defined for the program. while variables that are declared inside a function or block are called local variables. </p>
+            </p> <br/>
+            <p class="mcq"><span class = "ques">30. What is the difference between near, far and huge pointers?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- near, far and huge pointers were extensions to C to allow the programmer to give hints to the compiler about how to implement a pointer in the horrific segmented memory architecture of the Intel 8086/8088 (and 80186) CPUs.  Those CPUs used two 16 bit registers (and variously sized offsets) to generate a 20-bit address.<br/>Near pointer is used to store 16 bit addresses means within current segment on a 16 bit machine. The limitation is that we can only access 64kb of data at a time. A far pointer is typically 32 bit that can access memory outside current segment. To use this, compiler allocates a segment register to store segment address, then another register to store offset within current segment. Huge pointer is also typically 32 bit and can access outside segment. In case of far pointers, a segment is fixed. In far pointer, the segment part cannot be modified, but in Huge it can be.</p>
+            </p>
+         
+         <p class="mcq"><span class = "ques">1. What is Software Engineering?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-  IEEE defines 'Software Engineering' as the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software. IT industries adopt this approach to deliver software products and services to their clients. </p>
+            </p> 
+            <p class="mcq"><span class = "ques">2. What are the categories of software?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- There are various categories of software, the majority of which are: System software, Application software, Embedded software, Web applications, Artificial intelligence software, and Scientific Software.
+            </p>
+            </p> 
+            <p class="mcq"><span class = "ques">3. What is testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Testing is a process of executing a program with the intent of finding an error.
+            </p>
+            </p> 
+            <p class="mcq"><span class = "ques">4. What is white box testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- White box testing is a test case design method that uses the control structure of the procedural design to derive test cases. It is otherwise called as structural testing. 
+            </p>
+            </p> 
+            <p class="mcq"><span class = "ques">5. What is Black box testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Black box testing is a test case design method that focuses on the functional requirements of the software. It is otherwise called as functional testing.
+            </p>
+            </p> 
+            <p class="mcq"><span class = "ques">6. What are verification and validation? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- <br/>
+            <b>Verification</b>: Verification refers to the set of activities that software correctly implements a specific function.<br/><br/>
+            <b> Validation</b>: Validation refers to the set of activities that ensure that the software that has been built is traceable to customer requirements.</p>
+            </p> 
+            <p class="mcq"><span class = "ques">7.  What is debugging?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Debugging is the process that results in the removal of the error. It occurs as a consequence of successful testing.</p>
+            </p> 
+            <p class="mcq"><span class = "ques">8.  Define cyclomatic complexity?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Cyclomatic complexity is a software metric that provides a quantitative measure of the logical complexity of a program. </p>
+            </p> 
+            <p class="mcq"><span class = "ques">9. What is error tracking?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Error tracking is an activity that provides a means for assessing the status of a current project.</p>
+            </p>
+            <p class="mcq"><span class = "ques">10. What is CASE tools?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Computer-Aided Software Engineering - CASE tools assist software engineering managers and practitioners in every activity associated with the software process. They automate project management activities to manage all work products produced throughout the process and assist the engineers in their analysis, design, coding, and test work. </p>
+            </p>
+            <p class="mcq"><span class = "ques">11. What is data design?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Data design transforms the information domain model created during analysis into the data structures that will be required to implement the software.</p>
+            </p>
+            <p class="mcq"><span class = "ques">12. Define Cohesion and Coupling?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- <br/>
+            <b>Cohesion</b>: Cohesion is a measure of the relative functional strength of a module.<br/><br/>
+            <b>Coupling</b>: Coupling is a measure of the relative interdependence among module.
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">13. What are the different types of cohesion?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- There are different types of cohesion: Coincidental Cohesion, Logical Cohesion Temporal Cohesion, Procedural Cohesion, Communicational Cohesion. </p>
+            </p>
+            <p class="mcq"><span class = "ques">14. What are the different types of coupling?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- There are different types of coupling : Data coupling, Stamp coupling, Control coupling, External Coupling, Common Coupling, Content coupling.</p>
+            </p>
+            <p class="mcq"><span class = "ques">15. What is user interface design?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- User interface design creates effective communication,and a medium between a human and a computer.</p>
+            </p>
+            <p class="mcq"><span class = "ques">16. What is meant by specification?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A specification can be a written document, a graphical model, a formal mathematical model, a collection of usage scenarios, a prototype, or any combination of these.</p>
+            </p>
+            <p class="mcq"><span class = "ques">17. Define process?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A series of steps involving activities, constraints, and resources that produce an intended output of some kind is known as process.</p>
+            </p>
+            <p class="mcq"><span class = "ques">18. How the spiral model works?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The spiral model is an evolutionary software process model that couples the iterative nature of prototyping with the controlled and systematic aspects of the waterfall lifecycle model. It also has an emphasis on use or risk management techniques.</p>
+            </p>
+            <p class="mcq"><span class = "ques">19. What is winwin spiral model?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Winwin spiral model defines a set of negotiation activities, at the beginning of each pass around the spiral. The best negotiations strive for a win-win result. </p>
+            </p>
+            <p class="mcq"><span class = "ques">20. Mention the various views in the system engineering hierarchy?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The various views in system engineering hierarchy from top to bottom in order are: World View, Domain View, Element View, and Detailed view.</p>
+            </p>
+            <!-- mcq5mid -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5912385878283070" data-ad-slot="3038254047" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+            <p class="mcq"><span class = "ques">21. What is the software requirements definition?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A software requirements definition is an abstract description of the services which the system should provide and the constraints under which the system must operate.</p>
+            </p>
+            <p class="mcq"><span class = "ques">22. What is SDLC?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- A software cycle deals with various parts and phases from planning to testing and deploying. All these activities are carried out in different ways, as per the needs. Each way is known as a Software Development Lifecycle Model (SDLC). Some examples are:  Waterfall model, Incremental/Iterative model, and Spiral model.  
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">23. What are data acquisition system?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Systems that collect data from sensors for subsequent processing and analysis is termed as Data acquisition systems. Data collection process and processing processes may have different periods and deadlines.</p>
+            </p>
+            <p class="mcq"><span class = "ques">24. Define software configuration model <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- SCM is the art of identifying, organizing, and controlling modifications to the software being built by a programming team. It is an umbrella activity that is applied throughout the software process.</p>
+            </p>
+            <p class="mcq"><span class = "ques">25. What are the SCM activities? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- SCM activities are developed to :<br/>
+            1. Identify change Control change.<br/>
+            2. Ensure that change is being properly implemented.<br/>
+            3. Report changes to others who may have an interest. </p>
+            </p>
+            <p class="mcq"><span class = "ques">26. What is meant by loop testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Loop testing is a white box testing technique that focuses exclusively on the validity of loop constructs. This technique can be applied to simple loops, nested loops, concatenated loops, and unstructured loops.</p>
+            </p>
+            <p class="mcq"><span class = "ques">27. What is meant by smoke testing?
+            <br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Smoke testing is an integration testing approach that is commonly used when "shrink wrapped" software products are being developed.</p>
+            </p>
+            <p class="mcq"><span class = "ques">28. 28. What are alpha and beta tests?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- <br/>
+            <b>Alpha test</b>: Alpha test is the test that is conducted at the developer's site by a customer. <br/><br/>
+            <b>Beta test</b>: Beta test is the test that is conducted at one or more customer sites by the end-user of the software.</p>
+            </p>
+            <p class="mcq"><span class = "ques">29. What is meant by system testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- System testing is actually a series of different tests whose primary purpose is to fully exercise the computer-based system. It verifies whether the system elements have been properly integrated and perform the allocated functions.</p>
+            </p>
+            <p class="mcq"><span class = "ques">30. Mention the categories of debugging approaches?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-There are three categories of debugging approaches as follows: Brute-force, Backtracking, and Cause elimination.</p>
+            </p>
+            <p class="mcq"><span class = "ques">31. Define metric?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- IEEE93 defines as a quantitative measure of the degree to which a system, component, or process possesses a given attribute. Metrics are important measures of project parameters that help predict measure and control projects. Metrics also help in estimation.</p>
+            </p>
+            <p class="mcq"><span class = "ques">32. What is adaptive maintenance?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-Adaptive maintenance is the maintenance to adapt the software to a different operating environment. It involves changing a system so that it operates in a different environment from its initial implementation. </p>
+            </p>
+            <p class="mcq"><span class = "ques">33. What is the user requirements?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-User requirements should describe functional and non-functional requirements so that they are understandable by system users who don't have detailed technical knowledge. User requirements are defined using natural language, tables, and diagrams. </p>
+            </p>
+            <p class="mcq"><span class = "ques">34. What is the test scenario?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The test scenario is the hypothetical story to test the particular functionality of an application. It serves as an input to functional testing. For the test scenario, we need use case. </p>
+            </p>
+            <p class="mcq"><span class = "ques">35. Define prototype?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Prototype is an initial version of a software system that is used to demonstrate concepts, try out design options, and generally find out more about the problem and its possible solutions.</p>
+            </p>
+            <!-- sidemcq1 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5912385878283070" data-ad-slot="5932792618" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+            <p class="mcq"><span class = "ques">36. What is the system image?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- The system image combines the outward manifestation of the computer-based system, coupled with all supporting information that describes system syntax and semantics</p>
+            </p>
+            <p class="mcq"><span class = "ques">37. what is the transform mapping? <br/></span>
+            <p class = "options">
+            <b>Answer</b>:-Transform mapping is a set of design steps that allows a DFD with transform flow characteristics to be mapped into a specific architectural style. </p>
+            </p>
+            <p class="mcq"><span class = "ques">38. What is the traceability matrix?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Traceability matrix is a document in which we map the test cases with the requirements. In general, we check whet er the application works as per requirements or whether we had covered all the required functionality through test cases.</p>
+            </p>
+            <p class="mcq"><span class = "ques">39. What is Agile?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-Agile software development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.</p>
+            </p>
+            <p class="mcq"><span class = "ques">40.  What are the advantages of agile?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-The advantages of agile are :<br/><br/>
+            1. <b>Time to Market</b>: Early and regular releases.<br/>
+            2. <b>Revenue</b>: Early Return On Investment (ROI).<br/>
+            3. <b>High Quality and Productivity</b>: Testing is integrated throughout the cycle.<br/>
+            4. <b>Business Engagement/Customer Satisfaction</b>: Active involvement of a business owner and the high visibility of the product and progress.<br/>
+            5. <b>Motivated Teams</b>: Active involvement & collaboration make Agile development more enjoyable </p>
+            </p>
+            <p class="mcq"><span class = "ques">41. What is Quality Control?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Quality Control focus is on the Product.QC measures a product against the existence of a required attribute. Major QC activity is identifying defects and correcting them (Rework).</p>
+            </p>
+            <p class="mcq"><span class = "ques">42. What is Quality Assurance?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-  Quality Assurance focus is on the Process rather than Product. QA ensures "Fitness for Purpose". Building process guidelines, checklists, templates, Training activities.</p>
+            </p>
+            <p class="mcq"><span class = "ques">43. What is Cost of Quality?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:- Cost of Quality (CoQ) is a measure of costs (effort) incurred in ensuring quality. CoQ is typically measured as the percentage of effort spent to ensure quality compared to total project effort. Thus CoQ of 31.38% means that compared to the overall effort, the team has spent 31.38% of the effort to ensure quality.<br/>
+            CoQ = ((Prevention cost + Appraisal cost + Failure cost) x 100) / Total Project effort</p>
+            </p>
+            <p class="mcq"><span class = "ques">44. What is the Cost of Correcting Defects?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   Defects can get introduced in any of the following stages: Requirements Analysis, Design and Build. It is important to identify the defects and fix them before the release of the software. Accordingly, there is effort and cost involved in fixing the defects.</p>
+            </p>
+            <p class="mcq"><span class = "ques">45. What are the advantages and disadvantages of Black-Box Testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the advantages and disadvantages of black-box testing.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Advantages</th>
+            <th>Disadvantages</th>
+            </tr>
+            <tr>
+            <td>Well suited and efficient for large code segments.</td>
+            <td>Limited coverage, since only a selected number of test scenarios is actually performed.</td>
+            </tr>
+            <tr>
+            <td>Code access is not required.</td>
+            <td>Inefficient testing, tester only has limited knowledge about an application.</td>
+            </tr>
+            <tr>
+            <td>Clearly separates user's perspective from the developer's perspective through visibly defined roles.</td>
+            <td>Blind coverage, since the tester cannot target specific code segments or errorprone areas.</td>
+            </tr>
+            <tr>
+            <td>Large numbers of moderately skilled testers can test the application with no knowledge of implementation, programming language, or operating systems.</td>
+            <td>The test cases are difficult to design.</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">46. What are the advantages and disadvantages of White-Box Testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the advantages and disadvantages of White-Box Testing.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Advantages</th>
+            <th>Disadvantages</th>
+            </tr>
+            <tr>
+            <td>Direct statement by statement testing</td>
+            <td>Vast resource needed</td>
+            </tr>
+            <tr>
+            <td>Check algorithm are correctly defined and coded.</td>
+            <td>Cannot test performance in terms of availability, reliability, load durability.</td>
+            </tr>
+            <tr>
+            <td>Adherence to coding standards.</td>
+            <td>Difficult to maintain</td>
+            </tr>
+            <tr>
+            <td>Measure coding quality</td>
+            <td>Costs are high</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">47. What is the difference between validation and verification?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the difference between validation and verification.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Validation</th>
+            <th>Verification</th>
+            </tr>
+            <tr>
+            <td>Validation is a dynamic mechanism of validating and testing the actual product.</td>
+            <td>Verification is a static practice of verifying documents, design, code, and program.</td>
+            </tr>
+            <tr>
+            <td>It does involve executing the code.</td>
+            <td>It does not involve executing the code.</td>
+            </tr>
+            <tr>
+            <td>It is computer-based execution of program.</td>
+            <td>It is human-based checking of documents and files.</td>
+            </tr>
+            <tr>
+            <td>Validation to check whether the software meets the customer expectation and requirement.</td>
+            <td>Verification is to check whether the software conforms to the specification.</td>
+            </tr>
+            <tr>
+            <td>It can catch errors that verification cannot catch. It is a high-level exercise.</td>
+            <td>It can catch errors that validation cannot catch. It is a low-level exercise.</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">48. What is the difference between cohesion and coupling?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the difference between cohesion and coupling.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Cohesion</th>
+            <th>Coupling</th>
+            </tr>
+            <tr>
+            <td>Cohesion is the concept of intra module</td>
+            <td>Coupling is the concept of inter module</td>
+            </tr>
+            <tr>
+            <td>Cohesion represents the relationship within module</td>
+            <td>Coupling represents the relationship between module</td>
+            </tr>
+            <tr>
+            <td>Increasing in cohesion is good for software.</td>
+            <td>Increasing in coupling is avoided for software.</td>
+            </tr>
+            <tr>
+            <td>Highly cohesive give the best software</td>
+            <td>Loosely coupling give the best software</td>
+            </tr>
+            <tr>
+            <td>Module focus on the single thing</td>
+            <td>Module is connected to the other module.</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">49. What is the difference between Alpha and Beta testing?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the difference between Alpha and Beta testing.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Alpha Testing</th>
+            <th>Beta Testing</th>
+            </tr>
+            <tr>
+            <td>Perform by developer</td>
+            <td>Perform by customer</td>
+            </tr>
+            <tr>
+            <td>Conducted for software application</td>
+            <td>Conducted for software product</td>
+            </tr>
+            <tr>
+            <td>Performed in virtual environment</td>
+            <td>Performed in a real environment</td>
+            </tr>
+            <tr>
+            <td>Involves both white box and black box testing</td>
+            <td>Involves black box testing</td>
+            </tr>
+            <tr>
+            <td>It is not open to the market and public</td>
+            <td>It is open to the market and public</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+            <p class="mcq"><span class = "ques">50. What is the difference between Quality Control and Quality Assurance?<br/></span>
+            <p class = "options">
+            <b>Answer</b>:-   The following table lists the difference between Quality Control and Quality Assurance.
+            <div style="overflow-x:auto;">
+            <table>
+            <tr>
+            <th>Quality Assurance</th>
+            <th>Quality Control</th>
+            </tr>
+            <tr>
+            <td>QA is a managing tool</td>
+            <td>QC is a correcting tool</td>
+            </tr>
+            <tr>
+            <td>QA is process oriented</td>
+            <td>QC is product oriented</td>
+            </tr>
+            <tr>
+            <td>QA use proactive strategy</td>
+            <td>QC use reactive strategy</td>
+            </tr>
+            <tr>
+            <td>QA use for prevention of defects</td>
+            <td>QC use for detection of defects</td>
+            </tr>
+            <tr>
+            <td>Everyone is responsible</td>
+            <td>Testing team is responsible</td>
+            </tr>
+            </table>
+            </div>
+            </p>
+            </p>
+</body>
+</html>

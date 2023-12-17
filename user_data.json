@@ -1,0 +1,128 @@
+[
+  {
+    "username": "jasmine",
+    "password": "jasmine",
+    "quiz_data": [
+      {
+        "quiz_type": "TrueFalse",
+        "score": 0,
+        "date": "2023-10-18 16:16:38"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 8,
+        "date": "2023-10-18 16:22:29"
+      },
+      {
+        "quiz_type": "MCQ",
+        "score": 4,
+        "date": "2023-10-18 16:23:12"
+      },
+      {
+        "quiz_type": "MCQ",
+        "score": 3,
+        "date": "2023-10-18 17:19:40"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 3,
+        "date": "2023-10-18 17:44:21"
+      },
+      {
+        "quiz_type": "OneLiner",
+        "score": 2,
+        "date": "2023-10-18 17:53:45"
+      },
+      {
+        "quiz_type": "MCQ",
+        "score": 7,
+        "date": "2023-10-19 16:03:32"
+      },
+      {
+        "quiz_type": "MCQ",
+        "score": 4,
+        "date": "2023-10-19 16:05:50"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 2,
+        "date": "2023-10-24 16:30:09"
+      }
+    ]
+  },
+  {
+    "username": "user",
+    "password": "user"
+  },
+  {
+    "username": "hello",
+    "password": "world"
+  },
+  {
+    "username": "Akshat",
+    "password": "12345"
+  },
+  {
+    "username": "",
+    "password": "",
+    "quiz_data": [
+      {
+        "quiz_type": "TrueFalse",
+        "score": 2,
+        "date": "2023-10-18 17:50:23"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 0,
+        "date": "2023-10-24 16:28:37"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 6,
+        "date": "2023-10-27 13:09:58"
+      }
+    ]
+  },
+  {
+    "username": "jbatra_be20@thapar.edu",
+    "password": "",
+    "quiz_data": [
+      {
+        "quiz_type": "TrueFalse",
+        "score": 3,
+        "date": "2023-10-27 14:01:31"
+      }
+    ]
+  },
+  {
+    "username": "jasbatra01@gmail.com",
+    "password": "",
+    "quiz_data": [
+      {
+        "quiz_type": "TrueFalse",
+        "score": 4,
+        "date": "2023-12-07 23:07:46"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 2,
+        "date": "2023-12-07 23:10:45"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 3,
+        "date": "2023-12-08 01:31:55"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 5,
+        "date": "2023-12-08 12:28:37"
+      },
+      {
+        "quiz_type": "TrueFalse",
+        "score": 1,
+        "date": "2023-12-08 15:28:32"
+      }
+    ]
+  }
+]

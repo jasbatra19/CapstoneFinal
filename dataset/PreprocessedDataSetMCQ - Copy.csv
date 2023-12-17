@@ -1,0 +1,219 @@
+question,A,B,C,D,answer,explanation
+ Java Source Code is compiled into ,.Obj,Source Code,Bytecode,.Exe,C,Java Source Code is compiled into Bytecode.]
+ Enums were introduced in?,Java 4.0,Java 8.0,Java 5.0,Java 6.0,C,Enums were introduced in Java 5.0. Enums restrict a variable to have one of only a few predefined values. The values in this enumerated list are called enums.]
+" Default, public , protected, private are?",Access Modifier,Non-access Modifiers,Both A and B,Its variable,A,Access Modifiers : default
+ Which of the following is used to interpret and execute Java Applet Classes hosted by HTML,appletviewer,appletwatcher,appletshow,appletscreen,A,appletviewer is used to interpret and execute Java Applet Classes hosted by HTML.]
+ HTML based Java Documentary help can be accessed using ,javahelp,javamanual,javadoc,None of these,C,HTML based Java Documentary help can be accessed using javadoc.]
+ jar stands for ,Java Application Runner,Java Archive,Java Archive Runner,None of these,B,jar stands for Java Archive]
+ Which of the following is not a keyword in Java,transient,instanceof,emun,strictfp,C,Incorrect spelling of the word enum
+ Which of the following is not a keyword in Java,assert,boolean,abstract,finalize,D,Final class cant be inherited
+ Single line comment starts with  in Java,/**,//,/*,None of these,B,Single-line comments start with two forward slashes ( // ). Any text between // and the end of the line is ignored by Java]
+ What is JRE?,JRE is a java based GUI application.,JRE is an implementation of the Java Virtual Machine which executes Java programs.,JRE is an application development framework.,None of the above,B,Java Runtime Environment is an implementation of the Java Virtual Machine which executes Java programs. It provides the minimum requirements for executing a Java application.]
+ How to compile java code in command prompt?,javac filename.java,java filename.java,javac filename,java filename,A,Type javac filename.java and press enter to compile your code. If there are no errors in your code
+ How to run java program in command prompt?,javac filename.java,java filename.java,javac filename,java filename,D,Now
+ Java is case sensitive?,True,False,Depends On Complier,May be true or false,A,Case Sensitivity : Java is case sensitive
+ What is true in Java?,For all class names the first letter should be in Upper Case.,All method names should start with a Lower Case letter.,Name of the program file should exactly match the class name.,All of the above,D,All of the above statement are true.]
+ All Java components require names,Variables,identifiers,Access Modifiers,Java Modifiers,B,All Java components require names. Names used for classes
+ A   provides us with named storage that our programs can manipulate,data type,constants,operators,variable,D,A variable provides us with named storage that our programs can manipulate.]
+" Each variable in Java has a specific type, which determines the size and layout of the variable's memory",TRUE,FALSE,Can be true or false,Can not say,A,True
+" To declare more than one variable of the specified type, we can use a  list",colon-separated,bracket-separated,comma-separated,None of the above,C,To declare more than one variable of the specified type
+ How many kinds of variables in Java?,2,3,4,5,B,There are three kinds of variables in Java : Local variables
+ Local variables are declared in?,methods,constructors,blocks,All of the above,D,Local variables are declared in methods
+ What is true about Instance Variables in java?,Instance variables are declared in a class,When a space is allocated for an object in the heap,,,a slot for each instance variable value is created.,Instance variables can be declared in class level before or after use
+ Which variables have no default values?,Static Variables,Instance Variables,Local Variable,Both A and B,C,There is no default value for local variables
+ Static variables can be accessed by calling with the?,Object name,Class name,Function name,Can not say,B,Static variables can be accessed by calling with the class name ClassName.VariableName.]
+ Access modifiers cannot be used for local variables,Yes,No,Can be yes or no,Can not say,A,Yes
+ A program P reads in 500 integers in the range [0,An array of 50 numbers,An array of 100 numbers,An array of 500 numbers,A dynamically allocated array of 550 numbers,A,An array of size 50 looks the best option to store number of students for each score. We need to store frequencies of scores above 50. We can ignore scores below 50 and to index the scores above 50
+ Which of these best describes an array?,A data structure that shows a hierarchical behavior,Container of objects of similar types,Container of objects of mixed types,All of the mentioned,B,Array contains elements only of the same type.]
+ Let A be a square matrix of size n x n,The matrix A itself,Transpose of matrix A,Adding 100 to the upper diagonal elements & subtracting 100 from diagonal elements of A,None of the above,A,If we take look at the inner statements of first loops
+"What is the output of the following piece of code?
+      
+    public class array
+    {
+    public static void main(String args[])
+    {
+    int []arr = {1,2,3,4,5};
+    System",3 and 5,5 and 3,2 and 4,4 and 2,A,Array indexing starts from 0.]
+" Consider an array A[20, 10], assume 4 words per memory cell and the base address of array A is 100",560,565,570,575,A,No Explanation.]
+" What is the output of the following piece of code?
+      
+    public class array
+    {
+    public static void main(String args[])
+    {
+    int []arr = {1,2,3,4,5};
+    System",4,5,ArrayIndexOutOfBoundsException,InavlidInputException,C,Trying to access an element beyond the limits of an array gives ArrayIndexOutOfBoundsException.]
+ Which of the following concepts make extensive use of arrays?,Binary trees,Scheduling of processes,Caching,Spatial locality,D,Whenever a particular memory location is referred
+Let A[1,Î¸(n),Î¸(lgn),Î¸(nlgn),Î¸(n2),D,The expected number of inversions in any permutation on n elements is Î¸(n2).]
+ Which of the following operations is not O(1) for an array of sorted data,Find the ith largest element,Delete an element,Find the ith smallest element,All of the above,B,The worst case time complexity for deleting an element from array can become O(n).]
+The smallest element of an array's index is called its,lower bound.,upper bound.,range.,extraction.,A,None]
+" The extra key inserted at the end of the array is called a,",End key.,Stop key.,Sentinel.,Transposition.,C,None]
+  The largest element of an array index is called its,lower bound.,range.,upper bound.,All of these.,C,None]
+" Each array declaration need not give, implicitly or explicitly, the information about",the name of array,the data type of array,the first data from the set to be stored,the index set of the array,C,None]
+ The elements of an array are stored successively in memory cells because,by this way computer can keep track only the address of the first element and the addresses of other elements can be calculated,the architecture of computer memory does not allow arrays to store other than serially,both of above,none of above,A,No Explanation.]
+"  is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output",Code,Algorithm,Program,All of the above,B,Algorithm is a step-by-step procedure
+ Which of the following are characteristics of an algorithm?,Algorithm should be clear,Algorithm should be unambiguous,Algorithms must terminate after a finite number of steps,All of the above,D,All of the above are Characteristics of an Algorithm]
+ Not all procedures can be called an algorithm,TRUE,FALSE,Can be true or false,Can not say,A,True
+ An algorithm should have  well-defined inputs,0,1,0 or more,1 or more,C,An algorithm should have 0 or more well-defined inputs.]
+ An algorithm should have  well-defined outputs,0,1,0 or more,1 or more,D,An algorithm should have 1 or more well-defined outputs
+ Which of the following is a theoretical analysis of an algorithm?,Posterior Analysis,Priori Analysis,Simple Analysis,Preori Analysis,B,A Priori Analysis : This is a theoretical analysis of an algorithm. Efficiency of an algorithm is measured by assuming that all other factors
+  is measured by counting the number of key operations such as comparisons in the sorting algorithm,Space,Lines,Time,None of the above,C,Time is measured by counting the number of key operations such as comparisons in the sorting algorithm.]
+ The complexity of an algorithm f(n) gives the running time and/or the storage space required by the algorithm in terms of n as the size of input data,Yes,No,Can be yes or no,Can not say,A,Yes
+ The space required by an algorithm is equal to the sum of  components,1,2,3,4,B,The space required by an algorithm is equal to the sum of the following two components : fixed part and variable part.]
+" Space complexity S(P) of any algorithm P is S(P) = C + SP(I), where C is the?",fixed part,variable part,space complexity,None of the above,A,Space complexity S(P) of any algorithm P is S(P) = C + SP(I)
+ Which of the following statements for a simple graph is correct?,Every path is a trail,Every trail is a path,Every trail is a path as well as every path is a trail,None of the mentioned,A,In a walk if the vertices are distinct it is called a path
+ What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?,(n*(n-1))/2,(n*(n+1))/2,n*(n-1),n*(n+1),C,Out of n*n possible values for a simple graph the diagonal values will always be zero.]
+ Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?,In adjacency list representation,,,,space is saved for sparse graphs.,DFS and BSF can be done in O(V + E) time for adjacency list representation. These operations take O(V^2) time in adjacency matrix representation. Here is V and E are number of vertices and edges respectively.
+"A connected planar graph having 6 vertices, 7 edges contains  regions",15,3,1,11,B,By eulerâ€™s formula the relation between vertices(n)
+"On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?",Depends on the number of edges,Depends on the number of vertices,Is independent of both the number of edges and vertices,It depends on both the number of edges and vertices,C,To check if there is an edge between to vertices i and j
+ The degree sequence of a simple graph is the sequence of the degrees of the nodes in the graph in decreasing order,I and II,III and IV,IV only,II and IV,D,No explanation]
+ What is the maximum number of edges in a bipartite graph having 10 vertices?,24,21,25,16,C,Let one set have n vertices another set would contain 10-n vertices.
+The most efficient algorithm for finding the number of connected components in an undirected graph on n vertices and m edges has time complexity,A,B,C,D,C,Connected components can be found in O(m + n) using Tarjans algorithm. Once we have connected components
+" What is time complexity to check if a string(length S1) is a substring of another string(length S2) stored in a Directed Acyclic Word Graph, given S2 is greater than S1?",O(S1),O(S2),O(S1+S2),O(1),A,For each check of a word of length S1
+ What is the number of edges present in a complete graph having n vertices?,(n*(n+1))/2,(n*(n-1))/2,n,Information given is insufficient,B,Number of ways in which every vertex can be connected to each other is nC2.]
+"   If a simple graph G, contains n vertices and m edges, the number of edges in the Graph G'(Complement of G) is",(n*n-n-2*m)/2,(n*n+n+2*m)/2,(n*n-n-2*m)/2,(n*n-n+2*m)/2,A,The union of G and Gâ€™ would be a complete graph so
+  Which of the following properties does a simple graph not hold?,Must be connected,Must be unweighted,Must have no loops or multiple edges,All of the mentioned,A,A simple graph maybe connected or disconnected.]
+ Which of the following is true?,A graph may contain no edges and many vertices,A graph may contain many edges and no vertices,A graph may contain no edges and no vertices,None of the mentioned,B,A graph must contain at least one vertex.]
+"  For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?",v=e,v = e+1,v + 1 = e,None of the mentioned,B,For any connected graph with no cycles the equation holds true.]
+  A graph with all vertices having equal degree is known as a,Multi Graph,Regular Graph,Simple Graph,Complete Graph,B,The given statement is the definition of regular graphs.
+ The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is,O(V),O(E2),O(E),O(V2),D,As V entries are 0
+ Which of the following statements for a simple graph is correct?,Every path is a trail,Every trail is a path,Every trail is a path as well as every path is a trail,None of the mentioned,A,In a walk if the vertices are distinct it is called a path
+ What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?,(n*(n-1))/2,(n*(n+1))/2,n*(n-1),n*(n+1),C,Out of n*n possible values for a simple graph the diagonal values will always be zero.]
+"A connected planar graph having 6 vertices, 7 edges contains  regions",15,3,1,11,B,By eulerâ€™s formula the relation between vertices(n)
+"On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?",Depends on the number of edges,Depends on the number of vertices,Is independent of both the number of edges and vertices,It depends on both the number of edges and vertices,C,To check if there is an edge between to vertices i and j
+ The degree sequence of a simple graph is the sequence of the degrees of the nodes in the graph in decreasing order,I and II,III and IV,IV only,II and IV,D,No explanation]
+ What is the maximum number of edges in a bipartite graph having 10 vertices?,24,21,25,16,C,Let one set have n vertices another set would contain 10-n vertices.Total number of edges would be n*(10-n)
+The most efficient algorithm for finding the number of connected components in an undirected graph on n vertices and m edges has time complexity,A,B,C,D,C,Connected components can be found in O(m + n) using Tarjans algorithm. Once we have connected components
+" What is time complexity to check if a string(length S1) is a substring of another string(length S2) stored in a Directed Acyclic Word Graph, given S2 is greater than S1?",O(S1),O(S2),O(S1+S2),O(1),A,For each check of a word of length S1
+ What is the number of edges present in a complete graph having n vertices?,(n*(n+1))/2,(n*(n-1))/2,n,Information given is insufficient,B,Number of ways in which every vertex can be connected to each other is nC2.]
+"   If a simple graph G, contains n vertices and m edges, the number of edges in the Graph G'(Complement of G) is",(n*n-n-2*m)/2,(n*n+n+2*m)/2,(n*n-n-2*m)/2,(n*n-n+2*m)/2,A,The union of G and Gâ€™ would be a complete graph so
+  Which of the following properties does a simple graph not hold?,Must be connected,Must be unweighted,Must have no loops or multiple edges,All of the mentioned,A,A simple graph maybe connected or disconnected.]
+ Which of the following is true?,A graph may contain no edges and many vertices,A graph may contain many edges and no vertices,A graph may contain no edges and no vertices,None of the mentioned,B,A graph must contain at least one vertex.]
+"  For a given graph G having v vertices and e edges which is connected and has no cycles, which of the following statements is true?",v=e,v = e+1,v + 1 = e,None of the mentioned,B,For any connected graph with no cycles the equation holds true.]
+  A graph with all vertices having equal degree is known as a,Multi Graph,Regular Graph,Simple Graph,Complete Graph,B,The given statement is the definition of regular graphs.
+ The time complexity to calculate the number of edges in a graph whose information in stored in form of an adjacency matrix is,O(V),O(E2),O(E),O(V2),D,As V entries are 0
+ What is a hash table?,A structure that maps values to keys,A structure that maps keys to values,A structure used for storage,A structure used to implement stack and queue,B,A hash table is used to implement associative arrays which has a key-value pair
+ How many different insertion sequences of the key values using the same hash function and linear probing will result in the hash table shown above?,10,20,30,40,C,In a valid insertion sequence
+ If ' h ' is a hashing function and it is used to hash ' n ' keys into a table of size ' m '  where n <= m ,less than 1.,less than n.,less than m.,less than n / 2.,A,No Explanation]
+Hashing technique which allocates fixed number of buckets is classified as,dynamic hashing,static hashing,external hashing,internal hashing,C,Hashing technique which allocates fixed number of buckets is classified as external hashing.]
+"If several elements are competing for the same bucket in the hash table, what is it called?",Diffusion,Replication,Collision,None of the mentioned,C,If several elements are competing for the same bucket in the hash table
+" Consider a hash table of size seven, with starting index zero, and a hash function (3x + 4)mod7",8,,,,_,
+ What is the advantage of using a dynamic set in direct addressing?,It saves time,It saves space,It saves both time and space,None of the mentioned,B,Using a dynamic set
+"  In linear hashing, formula used to calculate number of records if blocking factor, loading factor and file buckets are known is as",r =l + bfr + N,r =l - bfr - N,r =l + bfr - N,r =l * bfr * N,D,No Explanation]
+  What is the load factor?,Average array size,Average key size,Average chain length,None of the mentioned,C,In simple chaining
+" Given a hash table T with 25 slots that stores 2000 elements, the load factor Î± for T is",80,0.0125,8000,1.25,A,load factor = (no. of elements) / (no. of table slots) = 2000/25 = 80.]
+ What is direct addressing?,Distinct array position for every possible key,Fewer array positions than keys,Fewer keys than array positions,None of the mentioned,A,Direct addressing is possible only when we can afford to allocate an array that has one position for every possible key.]
+  What is the search complexity in direct addressing?,O(n),O(logn),O(nlogn),O(1),D,Since every key has a unique array position
+ What is a hash function?,A function has allocated memory to keys,A function that computes the location of the key in the array,A function that creates an array,None of the mentioned,B,In a hash table
+ What can be the techniques to avoid collision?,Make the hash function appear random,Use the chaining method,Use uniform hashing,All of the mentioned,D,Making the hash function random is not really a good choice
+  What is simple uniform hashing?,Every element has equal probability of hashing into any of the slots,A weighted probabilistic method is used to hash elements into the slots,All of the mentioned,None of the mentioned,A,In simple uniform hashing
+" In simple uniform hashing, what is the search complexity?",O(n),O(logn),O(nlogn),O(1),D,There are two cases
+"  In simple chaining, what data structure is appropriate?",Singly linked list,Doubly linked list,Circular linked list,Binary trees,B,Deletion becomes easier with doubly linked list
+Which of these are core interfaces in the collection framework,Tree,Stack,Queue,Map,D,None]
+ Which one of the following is an application of Queue Data Structure?,When a resource is shared among multiple consumers.,When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes,Load Balancing,All of the above,D,No explanation.]
+" In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case linear time?",Insertion,Deletion,To empty a queue,Both Insertion and To empty a queue,D,Since front pointer is used for deletion
+How many stacks are needed to implement a queue,1,2,3,4,B,A queue can be implemented using two stacks.]
+"In a Queue, if a user tries to remove an element from empty Queue it is called ",Underflow,Empty collection,Overflow,Garbage Collection,A,In a Queue
+" If the elements ""A"", ""B"", ""C"" and ""D"" are placed in a queue and are deleted one at a time, in what order will they be removed?",ABCD,DCBA,DCAB,ABCD,A,Because Queue follow FIFO rule.]
+" In case of insertion into a linked queue, a node borrowed from the  list is inserted in the queue",AVAIL,FRONT,REAR,None of the mentioned,A,All the nodes are collected in AVAIL list.]
+If the MAXSIZE is the size of the array used in the implementation of circular queue,rear=(rear%1)+MAX_SIZE,rear=rear%(MAX_SIZE+1),rear=(rear+1)%MAX_SIZE,rear=rear+(1%MAX_SIZE),C,No explanation.]
+Suppose a circular queue of capacity (n â€“ 1) elements is implemented with an array of n elements,Full: (REAR+1) mod n == FRONT,,,,empty: REAR == FRONT,Full: (REAR+1) mod n == FRONT
+  A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as a ?,Tree,Linked list,,,A,None.]
+  The data structure required for Breadth First Traversal on a graph is?,Stack,Array,Queue,Tree,C,None.]
+ A queue is a ?,FIFO (First In First Out) list,LIFO (Last In First Out) list,Ordered array,Linear tree,A,None.]
+"  In Breadth First Search of Graph, which of the following data structure is used?",Stack,Queue,Linked list,None of the mentioned,B,None]
+ A data structure in which elements can be inserted or deleted at/from both the ends but not in the middle is?,Queue,Circular queue,Dequeue,Priority queue,C,None.]
+" A normal queue, if implemented using an array of size MAXSIZE, gets full when",Rear = MAX_SIZE â€“ 1B  Front = (rear + 1)mod MAX_SIZE,Front = rear + 1D>  Rear = front,,,C,Condition for size of queue.]
+  Queues serve major role in,Simulation of recursion,Simulation of arbitrary linked list,Simulation of limited resource allocation,All of the mentioned,C,Rest all are implemented using other data structures.]
+ Which of the following is not the type of queue?,Ordinary queue,Single ended queue,Circular queue,Priority queue,B,Queue always has two ends.]
+ Which of the following properties is associated with a queue?,First In Last Out,First In First Out,Last In First Out,None of the mentioned,B,Queue follows First In First Out structure.]
+" What does the following piece of code do?
+ 
+public Object function()
+{
+if(isEmpty())
+return -999;
+else
+{
+Object high;
+high = q[front];
+return high;
+}
+}",Dequeue,Enqueue,Return the front element,None of the mentioned,C,q[front] gives the element at the front of the queue
+ What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?,Recurrence is T(n) = T(n-2) + O(n) and time complexity is O(n^2),Recurrence is T(n) = T(n-1) + O(n) and time complexity is O(n^2),Recurrence is T(n) = 2T(n/2) + O(n) and time complexity is O(nLogn),Recurrence is T(n) = T(n/10) + T(9n/10) + O(n) and time complexity is O(nLogn),B,No explanation.]
+ Which of the following is not a stable sorting algorithm?,Insertion sort,Selection sort,Bubble sort,Merge sort,B,Selection sort is not a stable sorting algorithm.]
+  What is an external sorting algorithm?,Algorithm that uses tape or disk during the sort,Algorithm that uses main memory during the sort,Algorithm that involves swapping,Algorithm that are considered â€˜in placeâ€™,A,As the name suggests
+" If the number of records to be sorted is small, then â€¦â€¦ sorting can be efficient",Merge,Heap,Selection,Bubble,C,Selection sorting can be efficient.]
+Suppose we have a O(n) time algorithm that finds median of an unsorted array,O(n^2 Logn),O(n^2),O(n Logn Logn),O(nLogn),D,If we use median as a pivot element
+ Which of the following is not an in-place sorting algorithm?,Selection sort,Heap sort,Quick sort,Merge sort,D,Merge sort is not an in-place sorting algorithm.]
+ What is the advantage of bubble sort over other sorting techniques?,It is faster,Consumes less memory,Detects whether the input is already sorted,All of the mentioned,C,Bubble sort is one of the simplest sorting techniques and perhaps the only advantage it has over other techniques is that it can detect whether the input is already sorted.]
+The complexity of sorting algorithm measures the â€¦â€¦ as a function of the number n of items to be sorter,average time,running time,average-case complexity,case-complexity,B,The complexity of sorting algorithm measures the  running time as a function of the number n of items to be sorter.]
+" Suppose we are sorting an array of eight integers using quicksort, and we have just finished the first partitioning with the array looking like this: 
+    2  5  1  7  9  12  11  10 
+    Which statement is correct?",The pivot could be either the 7 or the 9.,The pivot could be the 7,,,but it is not the 9,The pivot is not the 7
+Consider the situation in which assignment operation is very costly,Insertion sort,Selection sort,Heap sort,None,B,Selection sort.]
+" In the following scenarios, when will you use selection sort?",The input is already sorted,A large file has to be sorted,Large values need to be sorted with small keys,Small values need to be sorted with large keys,C,Selection is based on keys
+ What is the worst case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),Ans :DC,Selection sort creates a sub-list
+ What is the advantage of selection sort over other sorting techniques?,,,,,A,Since selection sort is an in-place sorting algorithm
+ What is the average case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),D,In the average case
+ What is the disadvantage of selection sort?,It requires auxiliary memory,It is not scalable,It can be used for small keys,None of the mentioned,B,As the input size increases
+"  The given array is arr = {3,4,5,2,1}",5 and 4,4 and 5,2 and 4,2 and 5,A,Since the input array is not sorted
+"  The given array is arr = {1,2,3,4,5}",5 and 4,1 and 4,0 and 4,4 and 1,B,Selection sort is insensitive to input
+What is the best case complexity of selection sort?,O(nlogn),O(logn),O(n),O(n2),D,The best
+ What is an internal sorting algorithm?,Algorithm that uses tape or disk during the sort,Algorithm that uses main memory during the sort,Algorithm that involves swapping,Algorithm that are considered â€˜in placeâ€™,B,As the name suggests
+What is the worst case complexity of bubble sort?,O(nlogn),O(logn),O(n),O(n2),D,Bubble sort works by starting from the first element and swapping the elements if required in each iteration.]
+ What is the average case complexity of bubble sort?,O(nlogn),O(logn),O(n),O(n2),D,Bubble sort works by starting from the first element and swapping the elements if required in each iteration even in the average case.]
+" The given array is arr = {1,2,4,3}",4,2,1,0,A,Even though the first two elements are already sorted
+What is the best case efficiency of bubble sort in the improvised version?,O(nlogn),O(logn),O(n),O(n2),B,Only 2 elements in the given array are not sorted
+  QuickSort can be categorized into which of the following?,Brute Force technique,Divide and conquer,Greedy algorithm,Dynamic programming,B,First you divide(partition) the array based on the pivot element and sort accordingly.]
+ What is a randomized QuickSort?,The leftmost element is chosen as the pivot,The rightmost element is chosen as the pivot,Any element in the array is chosen as the pivot,A random number is generated which is used as the pivot,C,QuickSort is randomized by placing the input data in the randomized fashion in the array or by choosing a random element in the array as a pivot.]
+ A  is a special Tree-based data structure in which the tree is a complete binary tree,Graph,Heap,List,Stack,B,A Heap is a special Tree-based data structure in which the tree is a complete binary tree.]
+ How many type of heap are there?,2,3,4,5,A,There are 2 types of heap : max-heap and min-heap.]
+In which heap the root node must be greatest among the keys present at all of itâ€™s children?,min-heap,max-heap,Both A and B,None of the above,B Explanation : Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of itâ€™s children],
+What is the complexity of adding an element to the heap?,O(log n),O(log h),O(h),Both A and C,D Explanation : The total possible operation in re locating the new location to a new element will be equal to height of the heap.],
+ Heap can be used as,Priority queue,Stack,A decreasing order array,Normal Array,A Explanation : The property of heap that the value of root must be either greater or less than both of its children makes it work like a priority queue.],
+ An array consists of n elements,O(n*n*logn),O(n*logn),O(n*n),O(n *logn *logn),B,The total time taken will be N times the complexity of adding a single element to the heap. And adding a single element takes logN time
+ Which one of the following array elements represents a binary min heap?,12 10 8 25 14 17,8 10 12 25 14 17,25 17 14 12 10 8,14 17 25 10 12 8,B Explanation : A tree is min heap when data at every node in the tree is smaller than or equal to itâ€™s childrenâ€™ s data. So,
+" Given an array of element 5, 7, 9, 1, 3, 10, 8, 4",1,,,,3,
+ How many alphabets are there in Binary language?,2,3,4,5,A,nary language has only two alphabets
+ we write programs in?,Low-Level Language,Middle-Level Language,High-Level Language,Decimal-Format,C,we write programs in high-level language
+  is a program that converts high-level language to assembly language,assembler,compiler,interpreter,linker,B,A compiler is a program that converts high-level language to assembly language.]
+ A compiler that runs on platform (A) and is capable of generating executable code for platform (B) is called ?,cross-compiler,complex-compiler,object-compiler,post-compiler,A,A compiler that runs on platform (A) and is capable of generating executable code for platform (B) is called a cross-compiler.]
+ Which of the following is used to link all the parts of the program together for execution?,loader,linker,memory,preprocessor,B,A linker tool is used to link all the parts of the program together for execution (executable machine code).]
+ Which of the following tool produces input for compilers?,Interpreter,Assembler,Loader,Preprocessor,D,A preprocessor
+ Does compiler reads the whole source code at once?,Yes,No,Depends on compiler,Dont know,A,A compiler reads the whole source code at once
+" If an error occurs, what interpreter do?",terminate program,stops execution,reads the whole program even if it encounters  errors,give warning,B,If an error occurs
+" If an error occurs, what compiler do?",terminate program,stops execution,reads the whole program even if it encounters  errors,give warning,C,a compiler reads the whole program even if it encounters several errors.]
+ The output of an assembler is called?,data file,task file,object file,program file,C,An assembler translates assembly language programs into machine code.The output of an assembler is called an object file
+ Pandas is an open-source  Library?,Ruby,Javascript,Java,Python,D,Pandas is an open-source Python Library providing high-performance data manipulation and analysis tool using its powerful data structures.]
+ Python pandas was developed by?,Guido van Rossum,Travis Oliphant,Wes McKinney,Brendan Eich,C,Pandas is a high-level data manipulation tool developed by Wes McKinney.]
+ Pandas  key data structure is called?,Keyframe,DataFrame,Statistics,Econometrics,B,Pandas is built on the Numpy package and its key data structure is called the DataFrame.]
+" What will be output for the following code?
+import pandas as pd
+
+s = pd",1,2,3,4,A,Retrieve a single element using index label value.]
+" In pandas, Index values must be?",unique,hashable,Both A and B,None of the above,C,Index values must be unique and hashable
+ What will be correct syntax for pandas series?,pandas_Series( data,,,,index,
+ Which of the following is correct Features of DataFrame?,Potentially columns are of different types,Can Perform Arithmetic operations on rows and columns,Labeled axes (rows and columns),All of the above,D,All the above are feature of dataframe.]
+ What will be syntax for pandas dataframe?,pandas.DataFrame( data,,,,index,
+ A panel is a  container of data,1D,2D,3D,Infinite,C,A panel is a 3D container of data. The term Panel data is derived from econometrics and is partially responsible for the name pandas : pan(el)-da(ta)-s.]
+" Axis 1, in panel represent?",minor_axis,major_axis,items,None of the above,B,major_axis : axis 1
+ Which of the following is true?,If data is an ndarray,,,,index must be the same length as data.,Series is a one-dimensional labeled array capable of holding any data type.
+ Which of the following thing can be data in Pandas?,a python dict,an ndarray,a scalar value,All of the above,D,The passed index is a list of axis labels.]
+ Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?,DataFrame.from_items,DataFrame.from_records,DataFrame.from_dict,All of the above,A,DataFrame.from_dict operates like the DataFrame constructor except for the orient parameter which is columns by default.]
+ The  project builds on top of pandas and matplotlib to provide easy plotting of data,yhat,Seaborn,Vincent,Pychart,B,Seaborn has great support for pandas data objects.]
+ Which of the following makes use of pandas and returns data in a series or dataFrame?,pandaSDMX,freedapi,OutPy,Inpy,B,freedapi module requires a FRED API key that you can obtain for free on the FRED website.]
+ Why ndim is used?,Returns the number of elements in the underlying data.,Returns the Series as ndarray.,Returns the number of dimensions of the underlying data,,by definition 1.,Returns a list of the axis labels
+" What will be output for the following code?
+import pandas as pd
+import numpy as np
+
+s = pd",0,1,2,3,B,Returns the number of dimensions of the object. By definition
+" What will be output for the following code?
+import pandas as pd
+
+import numpy as np
+
+s = pd",0,1,2,3,C,size : Returns the size(length) of the series.]
+ Which of the following indexing capabilities is used as a concise means of selecting data from a pandas object?,In,ix,ipy,iy,B,ix and reindex are 100% equivalent.]
+ Which of the following is false?,The integer format tracks only the locations and sizes of blocks of data.,Pandas follow the NumPy convention of raising an error when you try to convert something to a bool.,Two kinds of SparseIndex are implemented,The integer format keeps an arrays of all of the locations where the data are not equal to the fill value,A,The block format tracks only the locations and sizes of blocks of data.]

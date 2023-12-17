@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceMe Assist - Result</title>
+    <script>
+        function reset_set(){
+            window.location.href='/reset'
+        }
+    </script>
+</head>
+<body>
+    <h2>Quiz Completed!</h2>
+    <p>Score: {{ score_acquired_mcq }} / {{ total_mcq_asked }}</p>
+    <button onclick="reset_set()"></button>
+</body>
+</html>
